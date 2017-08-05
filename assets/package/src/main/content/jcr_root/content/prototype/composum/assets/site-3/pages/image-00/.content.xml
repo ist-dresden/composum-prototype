@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="composum/prototype/assets/example/page">
+    <jcr:content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="composum/prototype/assets/example/page/container">
+        <text-00
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/text"
+                title="Comparing original and normal/medium..."
+                subtitle="original"/>
+        <image-00
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/simple"
+                imagePath="/content/prototype/composum/assets/site-3/images/image-01.jpg/normal/original/image-01.jpg"/>
+        <text-01
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/text"
+                subtitle="normal/medium"/>
+        <image-01
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-3/images/image-01.jpg"
+                variation="normal"
+                rendition="medium"/>
+        <text-02
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/text"
+                text="There should be &lt;i>no differences&lt;/i> in image &lt;b>quality &lt;/b>"/>
+    </jcr:content>
+</jcr:root>

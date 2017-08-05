@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="Shermanlai"
+                authorUrl="https://commons.wikimedia.org/w/index.php?title=User:Shermanlai&amp;action=edit&amp;redlink=1"
+                license="public domain"
+                licenseUrl="https://en.wikipedia.org/wiki/en:public_domain"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:EwE6Logo_Transparent.png">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="Ecopath with Ecosim 6 Logo"/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

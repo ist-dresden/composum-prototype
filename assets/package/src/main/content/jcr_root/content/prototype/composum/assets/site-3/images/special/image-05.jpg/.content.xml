@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="Uoaei1"
+                authorUrl="https://commons.wikimedia.org/wiki/User:Uoaei1"
+                copyright=""
+                date="2014-09-24"
+                license="Creative Commons Attribution-Share Alike 4.0 International"
+                licenseUrl="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+                location="48° 37′ 02.67″ N, 15° 12′ 09.78″ E"
+                locationUrl="https://tools.wmflabs.org/geohack/geohack.php?pagename=File%3AStift_Zwettl_Kreuzgang_Ost%2BNordfl%C3%BCgel_01.JPG&amp;params=48.617408333333_N_15.202716666667_E_globe:Earth_type:camera_&amp;language=en"
+                googleEarth="https://tools.wmflabs.org/geocommons/earth.kml?latdegdec=48.617408333333&amp;londegdec=15.202716666667&amp;scale=10000&amp;commons=1"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Stift_Zwettl_Kreuzgang_Ost%2BNordfl%C3%BCgel_01.JPG">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="East and north wing of the cloister at Zwettl Abbey, Lower Austria"/>
+                <de
+                        jcr:primaryType="nt:unstructured"
+                        description="Ost- und Nordflügel des Kreuzgangs von Stift Zwettl, Niederösterreich"/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

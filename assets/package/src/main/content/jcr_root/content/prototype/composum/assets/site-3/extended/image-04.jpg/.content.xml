@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                copyright=""
+                credits="Petr Novák, Wikipedia"
+                date="2015-11-08"
+                license="Creative Commons Attribution-Share Alike 2.5 Generic"
+                licenseUrl="https://creativecommons.org/licenses/by-sa/2.5/deed.en"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Eye_iris.jpg">
+        </meta>
+    </jcr:content>
+</jcr:root>

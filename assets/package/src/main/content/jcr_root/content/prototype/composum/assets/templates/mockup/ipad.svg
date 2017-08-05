@@ -1,0 +1,30 @@
+<svg id="f18ddb3e-f9ed-49cc-985e-9dfc9ffe3418" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="216.92" height="318.92" viewBox="0 0 216.92 318.92">
+  <defs>
+    <style>
+      .\31 0fba4f6-f211-4638-8fad-4ae8e7358ffa {
+        fill: #fdfdfd;
+        stroke-width: 2px;
+      }
+
+      .\31 0fba4f6-f211-4638-8fad-4ae8e7358ffa, .\37 66f570f-34e5-4cc5-a2dc-eed4c38453df, .dcb8cbdc-2ab2-4b72-9d5c-f12b8e741cc5 {
+        stroke: #7e89a3;
+      }
+
+      .dcb8cbdc-2ab2-4b72-9d5c-f12b8e741cc5 {
+        fill: #fff;
+      }
+
+      .\37 66f570f-34e5-4cc5-a2dc-eed4c38453df {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>ipad</title>
+  <g id="4e257542-21f8-471b-a06b-dbacc96d2738" data-name="IPAD">
+    <path id="44dd98fd-8682-441a-addf-f9d5c376a8b8" data-name="bezel" class="10fba4f6-f211-4638-8fad-4ae8e7358ffa" d="M204.44,318.46H13.56a12,12,0,0,1-12-12V13.55a12,12,0,0,1,12-12H204.44a12,12,0,0,1,12,12v292.9A12,12,0,0,1,204.44,318.46Z" transform="translate(-0.54 -0.54)"/>
+    <path id="dc46a97e-cc1d-4633-a657-d47f42f619cd" data-name="bezel-2" class="10fba4f6-f211-4638-8fad-4ae8e7358ffa" d="M204.44,318.46H13.56a12,12,0,0,1-12-12V13.55a12,12,0,0,1,12-12H204.44a12,12,0,0,1,12,12v292.9A12,12,0,0,1,204.44,318.46Z" transform="translate(-0.54 -0.54)"/>
+    <rect id="a63b8bdc-0649-48eb-a123-0f6f5c447787" data-name="screen" class="dcb8cbdc-2ab2-4b72-9d5c-f12b8e741cc5" x="17.92" y="32.92" width="182" height="252.92"/>
+    <circle id="17c2a896-aa85-4ba3-ac04-c145ec1143cb" data-name="lock" class="766f570f-34e5-4cc5-a2dc-eed4c38453df" cx="108.94" cy="300.94" r="8.02"/>
+    <circle id="7dd10e60-100b-4221-8013-4f04bb3a96bc" data-name="camera" class="766f570f-34e5-4cc5-a2dc-eed4c38453df" cx="107.91" cy="17.91" r="2.99"/>
+  </g>
+</svg>

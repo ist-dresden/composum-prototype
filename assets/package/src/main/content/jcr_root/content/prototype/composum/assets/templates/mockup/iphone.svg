@@ -1,0 +1,30 @@
+<svg id="a640a395-b04c-4d65-9955-0c8e21e2e632" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="132" height="275.87" viewBox="0 0 132 275.87">
+  <defs>
+    <style>
+      .\35 5355d4c-aeaa-417f-8c2d-0e48deaa6191 {
+        fill: #fdfdfd;
+        stroke-width: 2px;
+      }
+
+      .\35 5355d4c-aeaa-417f-8c2d-0e48deaa6191, .\39 105bab1-3ba8-4bb8-ad2a-dd9a43273bfc, .\39 86b57ca-c951-448a-a29f-47a7074248e7 {
+        stroke: #7e89a3;
+      }
+
+      .\39 105bab1-3ba8-4bb8-ad2a-dd9a43273bfc {
+        fill: #fff;
+      }
+
+      .\39 86b57ca-c951-448a-a29f-47a7074248e7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>iphone</title>
+  <g id="436e7103-3547-4b2e-9fab-2115ce73c8c3" data-name="iphone">
+    <path id="6d95636e-5639-4a83-b9ac-edbb6ce3529a" data-name="bezel" class="55355d4c-aeaa-417f-8c2d-0e48deaa6191" d="M131.5,259.45a16,16,0,0,1-16.06,16H17.56a16,16,0,0,1-16.06-16V17.55a16,16,0,0,1,16.06-16h97.88a16,16,0,0,1,16.06,16V259.45Z" transform="translate(-0.5 -0.56)"/>
+    <rect id="1f4f9204-d70c-425f-b0b0-47b1a46ae856" data-name="screen" class="9105bab1-3ba8-4bb8-ad2a-dd9a43273bfc" x="10" y="36.92" width="111.93" height="199.08"/>
+    <path id="40ec0f13-9917-4cc6-bf82-1ea7a43aa81e" data-name="speaker" class="986b57ca-c951-448a-a29f-47a7074248e7" d="M78.5,27.23a1.07,1.07,0,0,1-1,1.15H57.42a1.07,1.07,0,0,1-1-1.15V24.65a1.07,1.07,0,0,1,1-1.15h20.1a1.07,1.07,0,0,1,1,1.15v2.58Z" transform="translate(-0.5 -0.56)"/>
+    <circle id="4a67241f-8caf-4de1-9ae1-274e7a5268bb" data-name="camera" class="986b57ca-c951-448a-a29f-47a7074248e7" cx="67" cy="12.92" r="3"/>
+    <ellipse id="b153033e-6a46-4c9f-97b0-35335b71df79" data-name="lock" class="986b57ca-c951-448a-a29f-47a7074248e7" cx="66.04" cy="254.92" rx="10.04" ry="10"/>
+  </g>
+</svg>

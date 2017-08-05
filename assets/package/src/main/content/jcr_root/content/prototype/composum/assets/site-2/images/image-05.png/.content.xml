@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="www.nrc.gov"
+                authorUrl="https://commons.wikimedia.org/wiki/User:XRay"
+                date="2010-12-11"
+                license="public domain (in the United States)"
+                licenseUrl="https://en.wikipedia.org/wiki/Public_domain"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Graphic_TMI-2_Core_End-State_Configuration.png"
+                source="Graphic_TMI-2_Core_End-State_Configuration.png: NRC"
+                sourceUrl="https://commons.wikimedia.org/wiki/File:Graphic_TMI-2_Core_End-State_Configuration.png">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="NRC Image of TMI-2 Core End Stable State."/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

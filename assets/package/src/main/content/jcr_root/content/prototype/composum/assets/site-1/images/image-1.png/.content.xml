@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                source="Wikipedia"
+                sourceUrl="https://de.wikipedia.org/wiki/Testbild">
+        </meta>
+    </jcr:content>
+</jcr:root>

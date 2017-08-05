@@ -1,0 +1,42 @@
+<svg id="b4aae094-a7dc-433e-9afc-4a43318e20b2" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="1271" height="702.43" viewBox="0 0 1271 702.43">
+  <defs>
+    <style>
+      .\32 87f62a9-65fd-4208-98d9-babc4e90744d, .\36 d32fe20-2516-4036-8573-e9c8734899b6 {
+        fill: #f0efec;
+      }
+
+      .\32 87f62a9-65fd-4208-98d9-babc4e90744d, .\36 d32fe20-2516-4036-8573-e9c8734899b6, .a1c14379-2076-4706-9bff-54db59d04e5e, .d382d866-1ac7-4167-8e6b-c24ee6e07011, .f972303b-62a1-417a-919d-b8264086efdd {
+        stroke: #8492a5;
+      }
+
+      .\36 d32fe20-2516-4036-8573-e9c8734899b6, .a1c14379-2076-4706-9bff-54db59d04e5e {
+        stroke-width: 2px;
+      }
+
+      .a1c14379-2076-4706-9bff-54db59d04e5e {
+        fill: none;
+      }
+
+      .\32 87f62a9-65fd-4208-98d9-babc4e90744d {
+        stroke-linecap: square;
+      }
+
+      .f972303b-62a1-417a-919d-b8264086efdd {
+        fill: #fff;
+      }
+
+      .d382d866-1ac7-4167-8e6b-c24ee6e07011 {
+        fill: #f8f7f6;
+      }
+    </style>
+  </defs>
+  <title>macbook</title>
+  <path id="eeec655c-2f53-40b5-86d2-41eef59d6e54" data-name="bezel" class="6d32fe20-2516-4036-8573-e9c8734899b6" d="M1094.12,3.73H184.69c-24.75,0-45.84,20.3-45.84,45.45V647.35H1140V49.18C1140,24,1118.95,3.73,1094.12,3.73Z" transform="translate(-4 -2.73)"/>
+  <circle id="e821bcea-3009-46ca-a261-7f66156b78ec" data-name="webcam" class="a1c14379-2076-4706-9bff-54db59d04e5e" cx="637.24" cy="35.84" r="7.33"/>
+  <g id="bb52fc67-5332-4502-9d61-9573525e4147" data-name="bottom">
+    <path id="5f779244-e360-443e-be69-a9189e54e755" data-name="Shape" class="6d32fe20-2516-4036-8573-e9c8734899b6" d="M1180,704.16H99c-56.19,0-94-19.28-94-27.48V651.75c0-2.46,2.45-4.45,5.49-4.45h1258c3,0,5.5,2,5.5,4.45v25.91C1274,684.14,1244.68,704.16,1180,704.16Z" transform="translate(-4 -2.73)"/>
+    <path id="288f6cd3-75f6-44e5-a414-64c233e8d844" data-name="Line" class="287f62a9-65fd-4208-98d9-babc4e90744d" d="M5.92,673.88H1270.59" transform="translate(-4 -2.73)"/>
+  </g>
+  <rect id="9a5bfeb6-8a33-4d01-afac-d1a7f29f44e5" data-name="screen" class="f972303b-62a1-417a-919d-b8264086efdd" x="175.19" y="72.51" width="918.74" height="535.41"/>
+  <path id="eaa4a12d-2943-4557-ba0a-ea727f5568ef" data-name="touchpad" class="d382d866-1ac7-4167-8e6b-c24ee6e07011" d="M776.92,649.13v5.66c0,4-7.95,5.25-14,5.25H516.22c-6.33,0-14.33-1.22-14.33-5.25v-5.66" transform="translate(-4 -2.73)"/>
+</svg>

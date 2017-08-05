@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="User:Kahuroa"
+                authorUrl="https://commons.wikimedia.org/wiki/User:Kahuroa"
+                date="2010-10-25"
+                license="public domain"
+                licenseUrl="https://en.wikipedia.org/wiki/en:public_domain"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Polynesia.png"
+                source="See File:French Polynesia (orthographic projection, yellowblue).svg; Map information based on Vaka Moana: Voyages of the Ancestors - the discovery and settlement of the Pacific, ed K.R. Howe, 2008, p57."
+                sourceUrl="https://commons.wikimedia.org/wiki/File:French_Polynesia_(orthographic_projection,_yellowblue).svg">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="Polynesian triangle stretching from New Zealand in the south to Easter Island in the east and Hawaii in the north. This is a modification of File:French Polynesia (orthographic projection, yellowblue).svg."/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

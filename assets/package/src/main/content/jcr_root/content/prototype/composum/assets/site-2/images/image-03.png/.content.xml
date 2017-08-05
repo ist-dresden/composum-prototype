@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="Geek3"
+                authorUrl="https://commons.wikimedia.org/wiki/User:Geek3"
+                date="2008"
+                license="Creative Commons Attribution-Share Alike 3.0 Unported"
+                licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Gamma_abs_3D.png">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="3-dimensional plot of the absolute value of the complex gamma function"/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

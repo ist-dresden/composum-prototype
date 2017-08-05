@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="DemonDeLuxe (Dominique Toussaint)"
+                authorUrl="https://commons.wikimedia.org/wiki/User:DemonDeLuxe"
+                date="2006-07-19"
+                license="GNU Free Documentation License"
+                licenseUrl="https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Cone_3d.png">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="llustration of geometrical cones"/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

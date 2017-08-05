@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="sling:Folder">
+    <jcr:content
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Assets Example Special Images">
+        <assetconfig
+                jcr:primaryType="cpa:AssetConfiguration"
+                sling:resourceType="composum/assets/manager/config"
+                example.image.path="/content/prototype/composum/assets/site-3/images/special/image-05.jpg"
+                crop.vertical="0.7"
+                watermark.text="(c) Wikimedia Commons"
+                watermark.font.family="sans-serif"
+                watermark.font.size="24"
+                watermark.vertical="0.96"
+                watermark.horizontal="0.96"
+                watermark.color="#44eeff"
+                watermark.alpha="0.5">
+            <special
+                    jcr:primaryType="cpa:VariationConfig"
+                    sling:resourceType="composum/assets/manager/config/variation"
+                    categories="[default]"
+                    size.aspectRatio="5:1">
+                <thumbnail
+                        jcr:primaryType="cpa:RenditionConfig"
+                        sling:resourceType="composum/assets/manager/config/rendition"
+                        size.aspectRatio="1:1"
+                        size.width="128"
+                        watermark.text=""/>
+                <small
+                        jcr:primaryType="cpa:RenditionConfig"
+                        sling:resourceType="composum/assets/manager/config/rendition"
+                        size.width="640"/>
+                <medium
+                        jcr:primaryType="cpa:RenditionConfig"
+                        sling:resourceType="composum/assets/manager/config/rendition"
+                        categories="[default]"
+                        size.width="1024"/>
+                <large
+                        jcr:primaryType="cpa:RenditionConfig"
+                        sling:resourceType="composum/assets/manager/config/rendition"
+                        size.width="2400"/>
+            </special>
+        </assetconfig>
+    </jcr:content>
+</jcr:root>

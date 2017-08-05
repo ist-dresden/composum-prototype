@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent"
+            jcr:title="Image 3">
+        <imageconfig
+                jcr:primaryType="cpa:ImageConfiguration"
+                sling:resourceType="composum/assets/manager/config">
+            <square
+                    jcr:primaryType="cpa:VariationConfig"
+                    sling:resourceType="composum/assets/manager/config/variation"
+                    crop.horizontal="0.8"/>
+            <wide
+                    jcr:primaryType="cpa:VariationConfig"
+                    sling:resourceType="composum/assets/manager/config/variation"
+                    crop.vertical="0.76"/>
+        </imageconfig>
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="flickr user 'Truello' = Andy from Pittsburgh, USA"
+                authorUrl="http://www.flickr.com/people/truello/"
+                copyright=""
+                date="2008-07-21"
+                description="Kayaker performing a low brace (technique to right the kayak) with his wooden paddle on the Youghiogheny River in the Ohiopyle State Park, PA."
+                license="Creative Commons Attribution 2.0 Generic"
+                licenseUrl="https://creativecommons.org/licenses/by/2.0/deed.en"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:Low_brace_Youghiogheny_River_Ohiopyle,_PA.jpg"
+                source="kayaker' sur flickr"
+                sourceUrl="http://www.flickr.com/photos/truello/2690091487/">
+        </meta>
+    </jcr:content>
+</jcr:root>

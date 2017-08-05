@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.image {
+    display: inline-block;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.picture {
+
+    img {
+        width: 100%;
+    }
+}
+
+.composum-prototype-assets-example-page {
+
+    &_wrapper {
+        margin: 0 15px;
+    }
+
+    .composum-assets-commons-components-image-adaptive {
+        width: 225px;
+        height: 471px;
+        margin: 15px auto;
+
+        figure {
+            margin: 0;
+        }
+
+        &_background {
+            width: 100%;
+            height: 100%;
+            padding: 65px 19px 71px;
+            background-image: url("/content/prototype/composum/assets/templates/mockup/iphone.svg");
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        &_wrapper {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        @media (min-width: 768px) {
+            width: 334px;
+            height: 490px;
+
+            &_background {
+                padding: 53px 28px 54px 31px;
+                background-image: url("/content/prototype/composum/assets/templates/mockup/ipad.svg");
+            }
+        }
+
+        @media (min-width: 1024px) {
+            width: 904px;
+            height: 500px;
+
+            &_background {
+                padding: 53px 128px 70px 127px;
+                background-image: url("/content/prototype/composum/assets/templates/mockup/macbook.svg");
+            }
+        }
+
+        @media (min-width: 1200px) {
+            width: 100%;
+            height: auto;
+
+            &_background {
+                width: 100%;
+                height: auto;
+                padding: 0;
+                background: none;
+            }
+        }
+    }
+}

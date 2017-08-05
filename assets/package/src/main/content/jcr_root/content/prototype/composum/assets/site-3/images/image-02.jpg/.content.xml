@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="0x010C"
+                authorUrl="https://commons.wikimedia.org/wiki/User:0x010C"
+                copyright=""
+                date="2015-08-18"
+                license="Creative Commons Attribution-Share Alike 4.0 International"
+                licenseUrl="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+                location="44° 38′ 53.05″ N, 6° 34′ 54.98″ E"
+                locationUrl="https://tools.wmflabs.org/geohack/geohack.php?pagename=File%3A2015-08_playboating_Durance_09.jpg&amp;params=44.64807_N_6.58194_E_globe:Earth_type:camera_&amp;language=en"
+                googleEarth="https://tools.wmflabs.org/geocommons/earth.kml?latdegdec=44.64807&amp;londegdec=6.58194&amp;scale=10000&amp;commons=1"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:2015-08_playboating_Durance_09.jpg">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="Kayaker playboating at Saint-Clément-sur-Durance's canoe stadium, on the Durance river (France)."/>
+                <fr
+                        jcr:primaryType="nt:unstructured"
+                        description="Kayakiste faisant du playboat au stade d'eau vive de Saint-Clément-sur-Durance, sur la Durance (France)."/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>

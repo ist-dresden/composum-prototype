@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="composum/prototype/assets/example/page">
+    <jcr:content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="composum/prototype/assets/example/page/container">
+        <image-00
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="square"/>
+        <image-01
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="square"
+                rendition="medium"/>
+        <image-02
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="portrait"
+                rendition="medium"/>
+        <image-03
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="portrait"
+                rendition="small"/>
+        <image-04
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="normal"
+                rendition="small"/>
+        <image-05
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/example/image/asset"
+                assetPath="/content/prototype/composum/assets/site-2/images/image-04.png"
+                variation="normal"/>
+    </jcr:content>
+</jcr:root>

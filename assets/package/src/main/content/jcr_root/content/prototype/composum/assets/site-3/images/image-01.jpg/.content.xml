@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpa:Asset"
+        sling:resourceType="composum/assets/image">
+    <jcr:content
+            jcr:primaryType="cpa:AssetContent">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                sling:resourceType="composum/assets/manager/image/meta"
+                author="Dietmar Rabich"
+                authorUrl="https://commons.wikimedia.org/wiki/User:XRay"
+                copyright="© Dietmar Rabich, rabich.de"
+                copyrightUrl="http://www.rabich.de/"
+                date="2015-11-08"
+                license="Creative Commons BY-SA 4.0"
+                licenseUrl="http://creativecommons.org/licenses/by/4.0/legalcode"
+                location="51° 46′ 57.04″ N, 7° 24′ 30.98″ E"
+                locationUrl="https://tools.wmflabs.org/geohack/geohack.php?pagename=File%3AL%C3%BCdinghausen%2C_Berenbrock%2C_Dortmund-Ems-Kanal_%28an_der_Kreisstra%C3%9Fe_23%29_--_2015_--_4655.jpg&amp;params=51.782512_N_7.408605_E_globe:Earth_type:camera_region:DE-NW&amp;language=en"
+                googleEarth="https://tools.wmflabs.org/geocommons/earth.kml?latdegdec=51.782512&amp;londegdec=7.408605&amp;scale=10000&amp;commons=1"
+                origin="Wikimedia Commons"
+                originUrl="https://commons.wikimedia.org/wiki/File:L%C3%BCdinghausen,_Berenbrock,_Dortmund-Ems-Kanal_(an_der_Kreisstra%C3%9Fe_23)_--_2015_--_4655.jpg">
+            <i18n
+                    jcr:primaryType="nt:unstructured">
+                <en
+                        jcr:primaryType="nt:unstructured"
+                        description="Dortmund-Ems Canal (from the bridge of the county road 23) in the hamlet Berenbrck, Lüdinghausen, North Rhine-Westphalia, Germany"/>
+                <de
+                        jcr:primaryType="nt:unstructured"
+                        description="Dortmund-Ems-Kanal (von der Brücke der Kreisstraße 23) in der Bauerschaft Berenbrck, Lüdinghausen, Nordrhein-Westfalen, Deutschland"/>
+            </i18n>
+        </meta>
+    </jcr:content>
+</jcr:root>
