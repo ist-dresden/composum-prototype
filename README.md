@@ -6,7 +6,7 @@ yet another Apache Sling based Application Platform (asap)
 
 examples and prototypes to illustrate the features of the Composum platform and to start your own work
 
-* [Composum Assets Wiki](https://ist-software.atlassian.net/wiki/display/CMP/Composum+Prototype)
+* [Composum Prototype Wiki](https://ist-software.atlassian.net/wiki/display/CMP/Composum+Prototype)
 
 ### see also
 
