@@ -34,7 +34,6 @@
                     <!--sling:resourceType="composum/pages/components/search/field"-->
                     <!--buttonImage=""-->
                     <!--buttonText=""-->
-                    <!--buttonSymbol="fa fa-search"-->
                     <!--placeholderText="Please enter the search terms."-->
                     <!--searchResultPath="/content/prototype/composum/pages/site/demo/page/htlcomponents"/>-->
                     <!--<searchresult-->
@@ -48,7 +47,6 @@
                             sling:resourceType="composum/prototype/pages/demo/htl/search/field"
                             buttonImage=""
                             buttonText=""
-                            buttonSymbol="fa fa-search"
                             placeholderText="(HTL) : Please enter the search terms."
                             searchResultPath="/content/prototype/composum/pages/site/demo/page/htlcomponents"/>
                     <htlsearchresult
@@ -56,7 +54,7 @@
                             sling:resourceType="composum/prototype/pages/demo/htl/search/result"
                             template="composum/prototype/pages/demo/htl/search/defaulttemplate"
                             pagesize="4" headFormatted="Search result presented via HTL"
-                            searchRoot="{Path}/content"/>
+                            searchRoot="/content"/>
                 </column-0>
             </row>
         </main>

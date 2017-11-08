@@ -6,9 +6,8 @@
             jcr:title="Composum"
             sling:resourceType="composum/pages/components/page/home">
         <search
-                jcr:primaryType="sling:Folder"
+                jcr:primaryType="nt:unstructured"
                 sling:resourceType="composum/pages/components/search/field"
-                buttonSymbol="fa fa-search"
                 placeholderText="Searchterms"
                 searchResultPath="/content/prototype/composum/pages/site/home/meta/search"/>
         <stage
