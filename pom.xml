@@ -60,9 +60,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://bitbucket.org/ist-software/composum.git</connection>
-        <developerConnection>scm:git:https://bitbucket.org/ist-software/composum.git</developerConnection>
-        <url>https://bitbucket.org/ist-software/composum.git</url>
+        <connection>scm:git:https://github.com/ist-dresden/composum-prototype.git</connection>
+        <developerConnection>scm:git:https://github.com/ist-dresden/composum-prototype.git</developerConnection>
+        <url>https://github.com/ist-dresden/composum-prototype.git</url>
     </scm>
 
     <distributionManagement>
@@ -207,7 +207,9 @@
 
                                 <!-- No css minify - that's done on the fly in the application. -->
                                 <cssSourceDir>.</cssSourceDir>
-                                <cssSourceExcludes><cssSourceExclude>**</cssSourceExclude></cssSourceExcludes>
+                                <cssSourceExcludes>
+                                    <cssSourceExclude>**</cssSourceExclude>
+                                </cssSourceExcludes>
                             </configuration>
                             <goals>
                                 <goal>minify</goal>
@@ -563,26 +565,6 @@
 
             <!-- OSGi, Felix -->
             <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.scr</artifactId>
-                <version>2.0.8</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.scr.annotations</artifactId>
-                <version>1.12.0</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.framework</artifactId>
-                <version>5.6.4</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <!-- OSGi Core and Compendium API -->
-            <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.core</artifactId>
                 <version>6.0.0</version>
@@ -592,6 +574,36 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>osgi.cmpn</artifactId>
                 <version>6.0.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.annotation</artifactId>
+                <version>6.0.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.component.annotations</artifactId>
+                <version>1.3.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.metatype.annotations</artifactId>
+                <version>1.3.0</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.scr</artifactId>
+                <version>2.0.12</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.scr.annotations</artifactId>
+                <version>1.12.0</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -617,7 +629,7 @@
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.10</version>
+                <version>1.9</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
