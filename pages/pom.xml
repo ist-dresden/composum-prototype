@@ -9,14 +9,14 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-	<artifactId>composum-sling-prototype-pages</artifactId>
+	<artifactId>composum-prototype-pages</artifactId>
     <packaging>pom</packaging>
 
     <name>Composum Pages Demo Apps and Content</name>
 
 	<modules>
-		<module>bundle</module>
-		<module>package</module>
+		<module>app</module>
+		<module>content</module>
 	</modules>
 
     <dependencyManagement>
