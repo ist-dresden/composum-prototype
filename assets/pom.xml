@@ -12,7 +12,7 @@
     <artifactId>composum-sling-prototype-assets</artifactId>
     <packaging>pom</packaging>
 
-    <name>Composum Prototype Assets</name>
+    <name>Composum Assets Demo and Examples</name>
 
     <modules>
         <module>bundle</module>
@@ -33,4 +33,3 @@
         </dependencies>
     </dependencyManagement>
 </project>
-
