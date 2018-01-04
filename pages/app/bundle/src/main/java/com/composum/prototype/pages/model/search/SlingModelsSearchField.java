@@ -27,11 +27,6 @@ public class SlingModelsSearchField extends Element {
         LOG.debug("init");
     }
 
-    @Override
-    public void initialize(BeanContext context, Resource resource) {
-        super.initialize(context, resource);
-    }
-
     @Self
     private FieldConfig config;
 
