@@ -28,6 +28,13 @@
     opacity: 0.8;
 }
 
+@mixin inline-title {
+    margin: $column-title-margin;
+    padding: $column-title-padding;
+    @include title-font;
+    color: $column-title-text-color;
+}
+
 @mixin clear-after {
 
     &:after {
@@ -55,11 +62,4 @@
     left: 0;
     right: 0;
     bottom: 0;
-}
-
-@mixin inline-title {
-    margin: $column-title-margin;
-    padding: $column-title-padding;
-    @include title-font;
-    color: $column-title-text-color;
 }
