@@ -32,7 +32,7 @@
                             hint="width & height"/>
                 <cpp:widget type="position" label="Position" property="position"
                             hint="coordinates: x, y"/>
-                <cpp:widget type="path" label="Path" property="apath" i18n="true"/>
+                <cpp:widget type="pathfield" label="Path" property="apath" i18n="true"/>
             </div>
         </div>
     </cpp:editDialogTab>
@@ -97,6 +97,6 @@
         <cpp:widget type="textarea" label="Text Area" property="textarea" i18n="true"/>
     </cpp:editDialogTab>
     <cpp:editDialogTab tabId="image" label="Image">
-        <cpp:widget type="image" label="Image" property="image" i18n="true"/>
+        <cpp:widget type="imagefield" label="Image" property="image" i18n="true"/>
     </cpp:editDialogTab>
 </cpp:editDialog>
