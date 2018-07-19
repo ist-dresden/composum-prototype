@@ -5,7 +5,7 @@
 <sling:defineObjects/>
 <cpn:component id="parsys" type="com.composum.prototype.assets.example.ContainerBean">
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col col-xs-12">
             <div class="example parsys">
                 <c:forEach items="${parsys.content}" var="item">
                     <sling:include resource="${item}"/>

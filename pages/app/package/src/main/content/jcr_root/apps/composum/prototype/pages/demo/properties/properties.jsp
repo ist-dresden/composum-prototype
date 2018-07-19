@@ -4,10 +4,10 @@
 --%><cpp:defineObjects/>
 <cpp:element var="props" type="com.composum.pages.commons.model.Element"
              cssAdd="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <cpp:include replaceSelectors="multitest3"/>
     </div>
 </cpp:element>
