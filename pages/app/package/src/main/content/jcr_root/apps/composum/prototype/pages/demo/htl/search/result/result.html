@@ -5,7 +5,7 @@
 ${model.headFormatted @ context='unsafe'}
 <div data-sly-test="${model.hasError}" class="alert alert-danger" role="alert">${model.searchtermErrorText}</div>
 <sly data-sly-list.result="${model.results}">
-    <!--/* Transfer detail information (com.composum.pages.commons.service.SearchService.Result) as request attribute
+    <!--/* Transfer detail information (com.composum.pages.commons.service.search.SearchService.Result) as request attribute
      to renderers. */-->
     <sly data-sly-use.attributes="${'com.composum.platform.models.htl.MapCreator' @ key='searchresult', value=result}"/>
     <sly data-sly-test.hasTemplate="${model.template}">
