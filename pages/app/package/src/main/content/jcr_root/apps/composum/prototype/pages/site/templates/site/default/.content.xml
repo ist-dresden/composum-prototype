@@ -35,9 +35,5 @@
                     jcr:primaryType="nt:unstructured"
                     key="zh" label="普通话"/>
         </languages>
-        <releases
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="composum/pages/stage/edit/site/releases">
-        </releases>
     </jcr:content>
 </jcr:root>

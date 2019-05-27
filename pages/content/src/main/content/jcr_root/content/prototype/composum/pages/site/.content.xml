@@ -18,9 +18,5 @@
                     jcr:primaryType="nt:unstructured"
                     key="de" label="deutsch"/>
         </languages>
-        <releases
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="composum/pages/stage/edit/site/releases">
-        </releases>
     </jcr:content>
 </jcr:root>
