@@ -15,10 +15,10 @@
             <row
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-">
+                    cells="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column">
+                        sling:resourceType="composum/pages/components/container/row/cell">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"

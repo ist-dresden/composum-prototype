@@ -47,10 +47,10 @@
             <row
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-">
+                    cells="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column">
+                        sling:resourceType="composum/pages/components/container/row/cell">
                     <searchfield
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="composum/pages/components/search/field"
@@ -74,7 +74,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column"/>
+                        sling:resourceType="composum/pages/components/container/row/cell"/>
             </row>
         </main>
     </jcr:content>

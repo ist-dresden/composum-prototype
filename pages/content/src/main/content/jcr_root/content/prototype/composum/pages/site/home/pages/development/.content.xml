@@ -30,13 +30,13 @@
             <row
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-6--6-">
+                    cells="-6--6-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column"/>
+                        sling:resourceType="composum/pages/components/container/row/cell"/>
                 <column-1
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column"/>
+                        sling:resourceType="composum/pages/components/container/row/cell"/>
             </row>
             <accordion
                     jcr:primaryType="cpp:Container"
