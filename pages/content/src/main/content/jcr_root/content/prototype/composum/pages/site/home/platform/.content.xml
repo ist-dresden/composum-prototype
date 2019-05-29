@@ -11,14 +11,14 @@
             <row
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-6--6-">
+                    columns="-6--6-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                 </column-0>
                 <column-1
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                 </column-1>
             </row>
         </main>

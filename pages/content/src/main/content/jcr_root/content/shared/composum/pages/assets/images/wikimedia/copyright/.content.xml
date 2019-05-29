@@ -21,10 +21,10 @@
             <row
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -39,7 +39,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -54,7 +54,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-13
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -71,10 +71,10 @@
             <row_959040499
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -89,7 +89,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -104,7 +104,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -121,10 +121,10 @@
             <row_1365866037
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -139,7 +139,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -154,7 +154,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -171,10 +171,10 @@
             <row_1390412470
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -189,7 +189,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-05
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -204,15 +204,15 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell"/>
+                        sling:resourceType="composum/pages/components/container/row/column"/>
             </row_1390412470>
             <row_2054836547
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -227,7 +227,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-01
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -242,7 +242,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-03
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -259,10 +259,10 @@
             <row_1337743519
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--8-">
+                    columns="-4--8-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-04
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -288,7 +288,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-10
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -325,10 +325,10 @@
             <row_189369617
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-07
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -343,7 +343,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-11
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -358,7 +358,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-09
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -375,10 +375,10 @@
             <row_726826687
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/container/row"
-                    cells="-4--4--4-">
+                    columns="-4--4--4-">
                 <column-0
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-02
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -393,7 +393,7 @@
                 </column-0>
                 <column-1
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-06
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
@@ -408,7 +408,7 @@
                 </column-1>
                 <column-2
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="composum/pages/components/container/row/cell">
+                        sling:resourceType="composum/pages/components/container/row/column">
                     <textimage-14
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
