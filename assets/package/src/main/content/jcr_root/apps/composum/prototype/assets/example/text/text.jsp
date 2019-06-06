@@ -5,8 +5,8 @@
 <sling:defineObjects/>
 <cpn:component id="model" type="com.composum.prototype.assets.example.TextBean">
     <div class="example text-component">
-        <cpn:text tagName="h3" tagClass="title" value="${model.title}"/>
-        <cpn:text tagName="h4" tagClass="subtitle" value="${model.subtitle}"/>
-        <cpn:text tagClass="text" value="${model.text}" escape="false"/><%-- enable embedded HTML --%>
+        <cpn:text tagName="h3" class="title" value="${model.title}"/>
+        <cpn:text tagName="h4" class="subtitle" value="${model.subtitle}"/>
+        <cpn:text class="text" value="${model.text}" escape="false"/><%-- enable embedded HTML --%>
     </div>
 </cpn:component>

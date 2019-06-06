@@ -7,17 +7,17 @@
     <div class="composum-prototype-assets-example-code_panel panel panel-default">
         <c:if test="${code.showHeading}">
             <div class="composum-prototype-assets-example-code_heading panel-heading">
-                <cpn:text tagName="span" tagClass="composum-prototype-assets-example-code_title" value="${code.title}"/>
+                <cpn:text tagName="span" class="composum-prototype-assets-example-code_title" value="${code.title}"/>
                 <c:if test="${code.showLanguage}">
-                    <cpn:text tagName="span" tagClass="composum-prototype-assets-example-code_language badge"
+                    <cpn:text tagName="span" class="composum-prototype-assets-example-code_language badge"
                               value="${code.codeLanguage}"/>
                 </c:if>
                 <c:if test="${code.collapsible}">
                     <cpn:text tagName="button"
-                              tagClass="composum-prototype-assets-example-code_button btn btn-xs btn-default composum-prototype-assets-example-code_expand"
+                              class="composum-prototype-assets-example-code_button btn btn-xs btn-default composum-prototype-assets-example-code_expand"
                               value="expand code"/>
                     <cpn:text tagName="button"
-                              tagClass="composum-prototype-assets-example-code_button btn btn-xs btn-default composum-prototype-assets-example-code_collapse"
+                              class="composum-prototype-assets-example-code_button btn btn-xs btn-default composum-prototype-assets-example-code_collapse"
                               value="collapse code"/>
                 </c:if>
             </div>
@@ -27,7 +27,7 @@
                         class="${code.codeLanguage}"><cpn:text value="${code.code}"/></code></pre>
         </div>
         <c:if test="${code.hasCopyright}">
-            <cpn:text tagClass="composum-prototype-assets-example-code_footer panel-footer" value="${code.copyright}"/>
+            <cpn:text class="composum-prototype-assets-example-code_footer panel-footer" value="${code.copyright}"/>
         </c:if>
     </div>
 </cpn:component>
