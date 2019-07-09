@@ -13,7 +13,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="composum/pages/components/search/field"
                 placeholderText="Searchterms"
-                searchResultPath="/content/prototype/composum/pages/site/home/meta/search"/>
+                searchResultPath="/content/composum/prototype/pages/site/home/meta/search"/>
         <stage
                 jcr:primaryType="cpp:Container"
                 sling:resourceType="composum/pages/components/composed/carousel"
@@ -24,7 +24,7 @@
             <teaser-01
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/pages"
+                    link="/content/composum/prototype/pages/site/home/pages"
                     text="&lt;ul>&lt;li>on page element selection (alternatively in the content tree)&lt;/li>&lt;li>edit content using component related dialogs (like AEM)&lt;/li>&lt;li>add, remove or reorder elements in the tree, the page or in the context view&lt;/li>&lt;li>add component instances or assets via drag and drop from their selections views&lt;/li>&lt;/ul>"
                     title="Pages"
                     variation="bgimage">
@@ -36,7 +36,7 @@
             <teaser-02
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/platform"
+                    link="/content/composum/prototype/pages/site/home/platform"
                     text="&lt;ul>&lt;li>for each site a status view is available&lt;/li>&lt;li>all open and unreleased resources are listed and can be managed&lt;br>&lt;/li>&lt;li>from the sites view you can create an manage content releases&lt;/li>&lt;li>communicate via page comments and messages&lt;/li>&lt;/ul>"
                     title="Platform"
                     variation="bgimage">
@@ -48,7 +48,7 @@
             <teaser-03
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/console"
+                    link="/content/composum/prototype/pages/site/home/console"
                     text="&lt;ul>&lt;li>each thing a is a Sling component (dialogs, toolbars, ...)&lt;/li>&lt;li>each component can be edited within the Pages UI&lt;br>&lt;/li>&lt;li>all platform specific code is hided behind the Pages taglib&lt;/li>&lt;li>all URLs are rendered finally by the components&lt;/li>&lt;/ul>"
                     title="Console"
                     variation="bgimage">
@@ -60,7 +60,7 @@
             <teaser-04
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/about"
+                    link="/content/composum/prototype/pages/site/home/about"
                     text="&lt;ul>&lt;li>open source project&lt;/li>&lt;li>available on GitHub:&amp;nbsp;&lt;a href=&quot;https://github.com/ist-dresden/composum&quot;>https://github.com/ist-dresden/composum&lt;/a>&lt;a>&lt;/a>&lt;/li>&lt;li>MIT License - contributors welcome&lt;/li>&lt;/ul>"
                     title="About"
                     variation="bgimage">

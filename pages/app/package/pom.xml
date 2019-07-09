@@ -34,7 +34,7 @@
             </resource>
 
             <resource>
-                <directory>target/generated-css/jcr_root</directory>
+                <directory>${project.build.directory}/generated-css/jcr_root</directory>
                 <excludes>
                     <exclude>**/*.map</exclude>
                     <exclude>**/mixins.css</exclude>
@@ -138,12 +138,9 @@
         </profile>
         <profile>
             <id>installPackage</id>
-        </profile>
-        <profile>
-            <id>installTestContent</id>
             <activation>
                 <property>
-                    <name>deploy.testContent</name>
+                    <name>deploy.package</name>
                     <value>true</value>
                 </property>
             </activation>
@@ -166,7 +163,7 @@
             </build>
         </profile>
         <profile>
-            <id>installMapping</id>
+            <id>installTestContent</id>
         </profile>
 
     </profiles>

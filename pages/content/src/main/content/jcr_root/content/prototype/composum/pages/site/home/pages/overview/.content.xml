@@ -5,7 +5,7 @@
             jcr:primaryType="cpp:PageContent"
             jcr:title="Composum Pages"
             sling:resourceType="composum/pages/components/page/redirect"
-            sling:target="/content/prototype/composum/pages/site/home/pages">
+            sling:target="/content/composum/prototype/pages/site/home/pages">
         <navigation
                 jcr:primaryType="nt:unstructured"
                 title="Overview"/>

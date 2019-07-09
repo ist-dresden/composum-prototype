@@ -15,7 +15,7 @@
             <teaser-01
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/pages/editing"
+                    link="/content/composum/prototype/pages/site/home/pages/editing"
                     text="&lt;ul>&lt;li>on page element selection (alternatively in the content tree)&lt;/li>&lt;li>edit content using component related dialogs (like AEM)&lt;/li>&lt;li>add, remove or reorder elements in the tree, the page or in the context view&lt;/li>&lt;li>add component instances or assets via drag and drop from their selections views&lt;/li>&lt;/ul>"
                     title="Editing"
                     variation="bgimage">
@@ -27,7 +27,7 @@
             <teaser-02
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/pages/management"
+                    link="/content/composum/prototype/pages/site/home/pages/management"
                     text="&lt;ul>&lt;li>for each site a status view is available&lt;/li>&lt;li>all open and unreleased resources are listed and can be managed&lt;br>&lt;/li>&lt;li>from the sites view you can create an manage content releases&lt;/li>&lt;li>communicate via page comments and messages&lt;/li>&lt;/ul>"
                     title="Management"
                     variation="bgimage">
@@ -39,7 +39,7 @@
             <teaser-03
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/prototype/composum/pages/site/home/pages/development"
+                    link="/content/composum/prototype/pages/site/home/pages/development"
                     text="&lt;ul>&lt;li>each thing a is a Sling component (dialogs, toolbars, ...)&lt;/li>&lt;li>each component can be edited within the Pages UI&lt;br>&lt;/li>&lt;li>all platform specific code is hided behind the Pages taglib&lt;/li>&lt;li>all URLs are rendered finally by the components&lt;/li>&lt;/ul>"
                     title="Development"
                     variation="bgimage">
@@ -130,7 +130,7 @@
                         </_x0031__1476448542214>
                         <image
                                 jcr:primaryType="nt:unstructured"
-                                imageRef="/content/prototype/composum/pages/site/assets/pages/composum-pages-edit-view.jpg"/>
+                                imageRef="/content/composum/prototype/pages/site/assets/pages/composum-pages-edit-view.jpg"/>
                         <_x0031__1476448542215
                                 jcr:primaryType="cpp:Element"
                                 sling:resourceType="composum/pages/components/composed/illustration/annotation"

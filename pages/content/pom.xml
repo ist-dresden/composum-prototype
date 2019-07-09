@@ -51,7 +51,7 @@
                             <root>/content/shared/composum/pages</root>
                         </filter>
                         <filter>
-                            <root>/content/prototype/composum/pages</root>
+                            <root>/content/composum/prototype/pages</root>
                         </filter>
                     </filters>
 

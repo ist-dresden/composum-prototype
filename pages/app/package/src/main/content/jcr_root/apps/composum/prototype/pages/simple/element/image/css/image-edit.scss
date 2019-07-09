@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+$image-placeholder-size: 60px;
+
+.composum-prototype-pages-simple-element-image {
+
+    &_placeholder {
+        display: inline-block;
+        min-width: $image-placeholder-size;
+        min-height: $image-placeholder-size;
+
+        &-symbol {
+            color: rgba(64, 64, 64, 0.3);
+            mix-blend-mode: multiply;
+
+            &.fa {
+                font-size: $image-placeholder-size;
+                line-height: $image-placeholder-size;
+            }
+        }
+    }
+}

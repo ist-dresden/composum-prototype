@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.composum-prototype-pages-simple-element-textimage {
+
+    &_text-wrapper {
+        width: 100%;
+    }
+
+    &_text {
+        text-align: left;
+
+        &.text-align-right {
+            text-align: right;
+        }
+
+        &.text-align-center {
+            text-align: center;
+        }
+
+        &.text-align-justify {
+            text-align: justify;
+        }
+    }
+}
