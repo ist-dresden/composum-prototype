@@ -15,8 +15,8 @@
     <name>Composum Pages Demo Apps and Content</name>
 
 	<modules>
-		<module>app</module>
-		<module>content</module>
+		<module>simple</module>
+		<module>something</module>
 	</modules>
 
     <dependencyManagement>
