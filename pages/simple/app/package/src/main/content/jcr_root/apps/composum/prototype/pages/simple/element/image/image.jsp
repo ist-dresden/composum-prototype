@@ -6,10 +6,10 @@
              test="@{model.valid||model.editMode}">
     <cpp:dropZone property="imageRef" i18n="true" filter="asset:image">
         <cpn:div test="${model.valid}" class="${modelCSS}_frame">
-            <cpn:image classes="${modelCSS}_picture" src="${model.src}" alt="${cpn:text(model.alt)}"
+            <cpn:image class="${modelCSS}_picture" src="${model.src}" alt="${cpn:text(model.alt)}"
                        title="${cpn:text(model.title)}"/>
         </cpn:div>
-        <cpn:div test="${!model.valid}" class="${modelCSS}_placeholder"><i
-                class="${modelCSS}_placeholder-symbol fa fa-image"></i></cpn:div>
+        <cpn:div test="${!model.valid&&model.editMode}" class="${modelCSS}_placeholder"><i
+                class="placeholder-symbol fa fa-image"></i></cpn:div>
     </cpp:dropZone>
 </cpp:element>

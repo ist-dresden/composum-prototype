@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+$text-placeholder-size: 40px;
+$image-placeholder-size: 60px;
+
+@mixin placeholder($size) {
+    display: inline-block;
+    min-width: $size;
+    min-height: $size;
+
+    .placeholder-symbol {
+        color: rgba(64, 64, 64, 0.3);
+        mix-blend-mode: multiply;
+        font-size: $size;
+        line-height: $size;
+    }
+}
