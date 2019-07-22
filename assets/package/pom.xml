@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>com.composum.sling.prototype</groupId>
-        <artifactId>composum-sling-prototype-assets</artifactId>
+        <artifactId>composum-prototype-assets</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>composum-sling-prototype-assets-package</artifactId>
+    <artifactId>composum-prototype-assets-package</artifactId>
     <packaging>content-package</packaging>
 
     <name>Composum Prototype Assets Package</name>
@@ -84,7 +84,7 @@
                         <filter>
                             <root>/apps/composum/prototype/install</root>
                             <includes>
-                                <include>.*/composum-sling-prototype-assets-bundle.*\.jar</include>
+                                <include>.*/composum-prototype-assets-bundle.*\.jar</include>
                             </includes>
                         </filter>
                     </filters>
@@ -92,7 +92,7 @@
                     <embeddeds>
                         <embedded>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>composum-sling-prototype-assets-bundle</artifactId>
+                            <artifactId>composum-prototype-assets-bundle</artifactId>
                             <target>/apps/composum/prototype/install</target>
                         </embedded>
                     </embeddeds>
@@ -107,7 +107,7 @@
         <!-- Composum Prototype -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>composum-sling-prototype-assets-bundle</artifactId>
+            <artifactId>composum-prototype-assets-bundle</artifactId>
             <version>${project.version}</version>
         </dependency>
 

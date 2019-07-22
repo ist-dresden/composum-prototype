@@ -68,15 +68,15 @@
         <!-- Composum Pages -->
         <dependency>
             <groupId>com.composum.sling.pages</groupId>
-            <artifactId>composum-sling-pages-commons-bundle</artifactId>
+            <artifactId>composum-pages-commons-bundle</artifactId>
         </dependency>
         <dependency>
             <groupId>com.composum.sling.pages</groupId>
-            <artifactId>composum-sling-pages-components-bundle</artifactId>
+            <artifactId>composum-pages-components-bundle</artifactId>
         </dependency>
         <dependency>
             <groupId>com.composum.sling.platform</groupId>
-            <artifactId>composum-sling-platform-models-bundle</artifactId>
+            <artifactId>composum-platform-models-bundle</artifactId>
         </dependency>
 
         <!-- Composum Core -->

@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>com.composum.sling.prototype</groupId>
-        <artifactId>composum-sling-prototype-assets</artifactId>
+        <artifactId>composum-prototype-assets</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>composum-sling-prototype-assets-bundle</artifactId>
+    <artifactId>composum-prototype-assets-bundle</artifactId>
     <packaging>bundle</packaging>
 
     <name>Composum Prototype Assets Bundle</name>
@@ -62,13 +62,13 @@
         <!-- Composum Assets -->
         <dependency>
             <groupId>com.composum.sling.assets</groupId>
-            <artifactId>composum-sling-assets-commons-bundle</artifactId>
+            <artifactId>composum-assets-commons-bundle</artifactId>
         </dependency>
 
         <!-- Composum Platform -->
         <dependency>
             <groupId>com.composum.sling.platform</groupId>
-            <artifactId>composum-sling-platform-commons-bundle</artifactId>
+            <artifactId>composum-platform-commons-bundle</artifactId>
         </dependency>
 
         <!-- Composum Core -->
