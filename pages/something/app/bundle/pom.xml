@@ -62,15 +62,15 @@
 
         <!-- Composum Pages -->
         <dependency>
-            <groupId>com.composum.sling.pages</groupId>
+            <groupId>com.composum.pages</groupId>
             <artifactId>composum-pages-commons-bundle</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.composum.sling.pages</groupId>
+            <groupId>com.composum.pages</groupId>
             <artifactId>composum-pages-components-bundle</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.composum.sling.platform</groupId>
+            <groupId>com.composum.platform</groupId>
             <artifactId>composum-platform-models-bundle</artifactId>
         </dependency>
 

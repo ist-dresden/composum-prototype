@@ -56,13 +56,13 @@
 
         <!-- Composum Assets -->
         <dependency>
-            <groupId>com.composum.sling.assets</groupId>
+            <groupId>com.composum.assets</groupId>
             <artifactId>composum-assets-commons-bundle</artifactId>
         </dependency>
 
         <!-- Composum Platform -->
         <dependency>
-            <groupId>com.composum.sling.platform</groupId>
+            <groupId>com.composum.platform</groupId>
             <artifactId>composum-platform-commons-bundle</artifactId>
         </dependency>
 

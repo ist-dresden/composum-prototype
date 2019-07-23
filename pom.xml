@@ -21,7 +21,7 @@
     <properties>
         <package.group>com/composum/prototype</package.group>
         <bundle.category>composum,prototype</bundle.category>
-        <composum.platform.version>1.0.2</composum.platform.version>
+        <composum.platform.version>1.0.4</composum.platform.version>
         <composum.nodes.version>1.11.1</composum.nodes.version>
     </properties>
 
@@ -41,13 +41,13 @@
 
             <!-- Composum Platform -->
             <dependency>
-                <groupId>com.composum.sling.platform</groupId>
+                <groupId>com.composum.platform</groupId>
                 <artifactId>composum-platform-commons-bundle</artifactId>
                 <version>${composum.platform.version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>com.composum.sling.platform</groupId>
+                <groupId>com.composum.platform</groupId>
                 <artifactId>composum-platform-models-bundle</artifactId>
                 <version>${composum.platform.version}</version>
                 <scope>provided</scope>
