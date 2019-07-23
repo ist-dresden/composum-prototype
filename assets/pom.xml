@@ -14,9 +14,13 @@
 
     <name>Composum Assets Demo and Examples</name>
 
+    <properties>
+        <composum.assets.version>1.0.0-SNAPSHOT</composum.assets.version>
+    </properties>
+
     <modules>
-        <module>bundle</module>
-        <module>package</module>
+        <module>app</module>
+        <module>content</module>
     </modules>
 
     <dependencyManagement>
@@ -26,7 +30,7 @@
             <dependency>
                 <groupId>com.composum.sling.assets</groupId>
                 <artifactId>composum-assets-commons-bundle</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${composum.assets.version}</version>
                 <scope>provided</scope>
             </dependency>
 

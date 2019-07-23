@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>com.composum.sling.prototype</groupId>
-        <artifactId>composum-prototype-assets</artifactId>
+        <artifactId>composum-prototype-assets-app</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>composum-prototype-assets-bundle</artifactId>
+    <artifactId>composum-prototype-assets-app-bundle</artifactId>
     <packaging>bundle</packaging>
 
-    <name>Composum Prototype Assets Bundle</name>
+    <name>Composum Prototype Assets App Bundle</name>
 
     <properties>
         <bundle.name>com.composum.prototype.assets</bundle.name>
@@ -20,11 +20,6 @@
 
     <build>
         <plugins>
-
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-scr-plugin</artifactId>
-            </plugin>
 
             <plugin>
                 <groupId>org.apache.felix</groupId>
@@ -99,14 +94,6 @@
 
         <!-- OSGi, Felix -->
         <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.apache.felix.scr</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.apache.felix.scr.annotations</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
         </dependency>
@@ -144,12 +131,6 @@
 
         <profile>
             <id>installBundle</id>
-        </profile>
-        <profile>
-            <id>installPackage</id>
-        </profile>
-        <profile>
-            <id>installTestContent</id>
         </profile>
 
     </profiles>

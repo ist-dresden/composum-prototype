@@ -21,11 +21,6 @@
     <build>
         <plugins>
 
-            <!--plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-scr-plugin</artifactId>
-            </plugin-->
-
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
@@ -50,14 +45,6 @@
                             com.composum.prototype.pages.model.*
                         </Sling-Model-Packages>
                     </instructions>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>${java.source}</source>
-                    <target>${java.target}</target>
                 </configuration>
             </plugin>
 
@@ -94,18 +81,6 @@
 
         <profile>
             <id>installBundle</id>
-        </profile>
-        <profile>
-            <id>installPackage</id>
-        </profile>
-        <profile>
-            <id>installContent</id>
-        </profile>
-        <profile>
-            <id>installTestContent</id>
-        </profile>
-        <profile>
-            <id>installMapping</id>
         </profile>
 
     </profiles>

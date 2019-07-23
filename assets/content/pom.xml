@@ -9,10 +9,10 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>composum-prototype-assets-package</artifactId>
+    <artifactId>composum-prototype-assets-content</artifactId>
     <packaging>content-package</packaging>
 
-    <name>Composum Prototype Assets Package</name>
+    <name>Composum Prototype Assets Content</name>
 
     <build>
         <resources>
@@ -33,36 +33,8 @@
                 <targetPath>../vault-work/META-INF</targetPath>
             </resource>
 
-            <resource>
-                <directory>target/generated-css/jcr_root</directory>
-                <excludes>
-                    <exclude>**/*.map</exclude>
-                    <exclude>**/mixins.css</exclude>
-                    <exclude>**/variables.css</exclude>
-                </excludes>
-            </resource>
-
         </resources>
         <plugins>
-
-            <plugin>
-                <groupId>nl.geodienstencentrum.maven</groupId>
-                <artifactId>sass-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>generate-css</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>update-stylesheets</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
-            <plugin>
-                <groupId>com.samaxes.maven</groupId>
-                <artifactId>minify-maven-plugin</artifactId>
-            </plugin>
 
             <plugin>
                 <groupId>com.day.jcr.vault</groupId>
@@ -76,26 +48,9 @@
 
                     <filters>
                         <filter>
-                            <root>/content/prototype/composum/assets</root>
-                        </filter>
-                        <filter>
-                            <root>/apps/composum/prototype/assets</root>
-                        </filter>
-                        <filter>
-                            <root>/apps/composum/prototype/install</root>
-                            <includes>
-                                <include>.*/composum-prototype-assets-bundle.*\.jar</include>
-                            </includes>
+                            <root>/content/composum/prototype/assets</root>
                         </filter>
                     </filters>
-
-                    <embeddeds>
-                        <embedded>
-                            <groupId>${project.groupId}</groupId>
-                            <artifactId>composum-prototype-assets-bundle</artifactId>
-                            <target>/apps/composum/prototype/install</target>
-                        </embedded>
-                    </embeddeds>
 
                 </configuration>
             </plugin>
@@ -103,13 +58,6 @@
         </plugins>
     </build>
     <dependencies>
-
-        <!-- Composum Prototype -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>composum-prototype-assets-bundle</artifactId>
-            <version>${project.version}</version>
-        </dependency>
 
         <!-- Composum Core -->
         <dependency>
@@ -130,12 +78,6 @@
     </dependencies>
     <profiles>
 
-        <profile>
-            <id>installBundle</id>
-        </profile>
-        <profile>
-            <id>installPackage</id>
-        </profile>
         <profile>
             <id>installTestContent</id>
             <activation>

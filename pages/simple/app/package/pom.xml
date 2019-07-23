@@ -134,9 +134,6 @@
     <profiles>
 
         <profile>
-            <id>installBundle</id>
-        </profile>
-        <profile>
             <id>installPackage</id>
             <activation>
                 <property>
@@ -161,15 +158,6 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-        <profile>
-            <id>installContent</id>
-        </profile>
-        <profile>
-            <id>installTestContent</id>
-        </profile>
-        <profile>
-            <id>installMapping</id>
         </profile>
 
     </profiles>
