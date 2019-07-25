@@ -7,6 +7,7 @@
             jcr:primaryType="cpp:PageContent"
             jcr:title="Simple Prototype Homepage"
             sling:resourceType="composum/prototype/pages/simple/page"
-            template="/apps/composum/prototype/pages/simple/templates/page">
+            template="/apps/composum/prototype/pages/simple/templates/page"
+            isTemplate="{Boolean}false">
     </jcr:content>
 </jcr:root>

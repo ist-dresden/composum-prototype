@@ -6,7 +6,8 @@
         jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
-            jcr:title="My new Homepage"
+            jcr:title="My Prototype Homepage"
+            jcr:description="the homepage template of the prototype site template used also as template to create a new page"
             sling:resourceType="composum/pages/components/page/home">
         <stage
                 jcr:primaryType="cpp:Container"
