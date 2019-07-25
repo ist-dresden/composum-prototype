@@ -12,7 +12,9 @@
             allowedChildTemplates="[
                 ^(.*/)?composum/prototype/pages/simple/templates/page$
             ]">
-        <cpp:design jcr:primaryType="nt:unstructured">
+        <cpp:design
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/pages/stage/edit/page/design">
             <container
                     jcr:primaryType="nt:unstructured"
                     typePatterns="[
