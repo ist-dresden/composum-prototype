@@ -14,9 +14,7 @@
             <text_01
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/text"
-                    text="a simple image which can be embedded as content element in a container (paragraph) or embedded in another component statically"
-                    textAlignment="left"
-                    title="Image (simple)">
+                    text="a simple image which can be embedded as content element in a container (paragraph) or embedded in another component statically">
                 <i18n
                         jcr:primaryType="nt:unstructured">
                     <de

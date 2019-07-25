@@ -2,6 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
         jcr:primaryType="cpp:Component"
         jcr:description="a single image element"
-        jcr:title="Image(Simple)"
+        jcr:title="Image (Simple)"
         category="[Image,Prototype,Simple]"
         sling:resourceSuperType="composum/prototype/pages/simple/element"/>
