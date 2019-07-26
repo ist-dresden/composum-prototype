@@ -19,9 +19,22 @@
     </properties>
 
 	<modules>
-		<module>simple</module>
-		<module>something</module>
+        <module>simple</module>
+        <module>intro</module>
+        <module>demo</module>
 	</modules>
+
+    <profiles>
+        <profile>
+            <id>options</id>
+            <modules>
+                <module>simple</module>
+                <module>intro</module>
+                <module>demo</module>
+                <module>test</module>
+            </modules>
+        </profile>
+    </profiles>
 
     <dependencyManagement>
         <dependencies>
