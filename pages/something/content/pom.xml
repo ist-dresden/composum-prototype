@@ -48,10 +48,7 @@
 
                     <filters>
                         <filter>
-                            <root>/content/shared/composum/pages</root>
-                        </filter>
-                        <filter>
-                            <root>/content/composum/prototype/pages/site</root>
+                            <root>/content/composum/prototype/pages/something</root>
                         </filter>
                     </filters>
 

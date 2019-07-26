@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            jcr:title="Hello World!"
+            sling:resourceType="composum/prototype/pages/simple/page"
+            template="/apps/composum/prototype/pages/simple/templates/page">
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/prototype/pages/simple/container">
+            <textimage-01
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/prototype/pages/simple/element/textimage"
+                    text="&lt;p>The Composum Platform is a Web application platform based on the Apache Sling framework. The platform support content management, asset management and fast application development.&lt;/p>"
+                    title="Hello World!">
+                <image
+                        jcr:primaryType="cpp:Element"/>
+            </textimage-01>
+        </main>
+    </jcr:content>
+</jcr:root>
