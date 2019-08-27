@@ -7,13 +7,13 @@
     <html>
     <head>
         <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
-        <cpn:clientlib type="css" path="composum/prototype/assets/example/clientlib"/>
+        <cpn:clientlib type="css" category="composum.prototype.assets.demo"/>
     </head>
     <body id="page-content" class="composum-prototype-assets-example-page example page">
     <div class="composum-prototype-assets-example-page_wrapper">
         <sling:include path="jcr:content"/>
     </div>
-    <cpn:clientlib type="js" path="composum/prototype/assets/example/clientlib"/>
+    <cpn:clientlib type="js" category="composum.prototype.assets.demo"/>
     </body>
     </html>
 </cpn:component>

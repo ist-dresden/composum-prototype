@@ -3,4 +3,4 @@
         jcr:primaryType="sling:OrderedFolder"
         embed="[category:composum.components.core,
                 jslibs/highlight/(9.*:9.15.6)/clientlib,
-                composum/prototype/assets/example/code/code.js"/>
+                composum/prototype/assets/demo/code/js/code.js"/>

@@ -4,5 +4,5 @@
         depends="[fonts/awesome/4.7.0/css/font-awesome.css,
                   jslibs/bootstrap/3.4.1/css/bootstrap.css,
                   jslibs/highlight/(9.*:9.15.6)/clientlib]"
-        embed="[composum/prototype/assets/example/code/code.css,
-                composum/prototype/assets/example/css/example.css]"/>
+        embed="[composum/prototype/assets/demo/code/css/code.css,
+                composum/prototype/assets/demo/css/demo.css]"/>
