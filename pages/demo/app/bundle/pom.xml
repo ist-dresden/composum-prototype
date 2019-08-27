@@ -15,7 +15,7 @@
     <name>Composum Prototype Pages 'Demo' App Bundle</name>
 
     <properties>
-        <bundle.name>com.composum.prototype.pages.something</bundle.name>
+        <bundle.name>com.composum.prototype.pages.demo</bundle.name>
     </properties>
 
     <build>
@@ -33,7 +33,7 @@
                             {maven-resources}
                         </Include-Resource>
                         <Export-Package>
-                            com.composum.prototype.pages.demo.model.*
+                            com.composum.prototype.pages.demo.*
                         </Export-Package>
                         <Import-Package>
                             org.apache.sling.api.resource.*;version="[2.8.0,3)",
@@ -69,6 +69,8 @@
             <groupId>com.composum.pages</groupId>
             <artifactId>composum-pages-components-bundle</artifactId>
         </dependency>
+
+        <!-- Composum Platform -->
         <dependency>
             <groupId>com.composum.platform</groupId>
             <artifactId>composum-platform-models-bundle</artifactId>

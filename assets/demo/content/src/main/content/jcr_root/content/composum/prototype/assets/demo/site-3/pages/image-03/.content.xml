@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="composum/prototype/assets/demo/page">
+    <jcr:content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="composum/prototype/assets/demo/page/container">
+        <text-00
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/text"
+                title="Square"
+                text="For this image the &lt;b>horizontal crop&lt;/b> property overlays the configuration settings..."/>
+        <image-00
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="square"/>
+        <image-01
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="square"
+                rendition="medium"/>
+        <text-02
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/text"
+                title="Wide"
+                text="For this image the &lt;b>vertical crop&lt;/b> property overlays the configuration settings..."/>
+        <image-02
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="wide"
+                rendition="medium"/>
+        <image-03
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="wide"
+                rendition="small"/>
+        <text-04
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/text"
+                title="Normal"/>
+        <image-04
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="normal"
+                rendition="small"/>
+        <image-05
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="normal"/>
+        <text-06
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/text"
+                title="Blurred"/>
+        <image-06
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="composum/prototype/assets/demo/image/asset"
+                assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                variation="blurred"/>
+    </jcr:content>
+</jcr:root>

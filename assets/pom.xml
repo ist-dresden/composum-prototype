@@ -12,15 +12,14 @@
     <artifactId>composum-prototype-assets</artifactId>
     <packaging>pom</packaging>
 
-    <name>Composum Assets Demo and Examples</name>
+    <name>Composum Prototype Assets Demo and Examples</name>
 
     <properties>
         <composum.assets.version>1.0.0-SNAPSHOT</composum.assets.version>
     </properties>
 
     <modules>
-        <module>app</module>
-        <module>content</module>
+        <module>demo</module>
     </modules>
 
     <dependencyManagement>
