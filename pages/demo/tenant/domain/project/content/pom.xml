@@ -47,10 +47,7 @@
 
                     <filters>
                         <filter>
-                            <root>/content/tenant/site#1</root>
-                        </filter>
-                        <filter>
-                            <root>/content/tenant/site#2</root>
+                            <root>/content/tenant/site</root>
                         </filter>
                     </filters>
 
@@ -91,6 +88,9 @@
         </profile>
         <profile>
             <id>installPackage</id>
+        </profile>
+        <profile>
+            <id>installContent</id>
         </profile>
         <profile>
             <id>installTestContent</id>
