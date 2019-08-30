@@ -12,11 +12,11 @@
 	<artifactId>composum-prototype-pages-demo</artifactId>
     <packaging>pom</packaging>
 
-    <name>Composum Prototype Pages 'Demo'</name>
+    <name>Composum Pages - demo for a tenants project</name>
+    <description>this contains a template of a recommended project structure</description>
 
 	<modules>
-		<module>app</module>
-		<module>content</module>
+		<!-- <module>tenant</module> - the demo project structure root -->
 	</modules>
 
 </project>

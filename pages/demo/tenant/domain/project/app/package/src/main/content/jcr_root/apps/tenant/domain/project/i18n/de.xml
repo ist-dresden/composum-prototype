@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:language="de"
+        jcr:mixinTypes="[mix:language]"
+        jcr:primaryType="sling:Folder"
+        sling:basename="tenant-domain-project">
+    <general jcr:primaryType="sling:Folder"><!-- general phrases -->
+
+        <confidentiality jcr:primaryType="sling:MessageEntry"
+                sling:key="Confidentiality" sling:message="Vertraulichkeit"/>
+        <confidentiality-hint jcr:primaryType="sling:MessageEntry"
+                sling:key="choose an asset confidentiality" sling:message="die Vertraulichkeit festlegen"/>
+        <secret jcr:primaryType="sling:MessageEntry"
+                sling:key="secret" sling:message="geheim"/>
+        <confidential jcr:primaryType="sling:MessageEntry"
+                sling:key="confidential" sling:message="vertraulich"/>
+        <internal jcr:primaryType="sling:MessageEntry"
+                sling:key="internal" sling:message="intern"/>
+        <public jcr:primaryType="sling:MessageEntry"
+                sling:key="public" sling:message="öffentlich"/>
+
+    </general>
+</jcr:root>

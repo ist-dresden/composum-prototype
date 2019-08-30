@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page/home"
+            template="/libs/composum/pages/components/templates/page/home">
+        <logo
+                jcr:primaryType="cpp:Element"
+                sling:resourceType="composum/pages/components/element/image"
+                imageRef="/content/shared/composum/pages/components/assets/logo/Composum-color.svg"/>
+        <search
+                jcr:primaryType="nt:unstructured">
+            <field
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/search/field"
+                    buttonSymbol="search"
+                    searchResultPath="/content/tenant/mysite/meta/search"/>
+        </search>
+        <stage
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/composed/carousel"
+                autoStart="{Boolean}true"
+                interval="10000"
+                showIndicators="{Boolean}true"
+                useControls="{Boolean}true">
+            <teaser
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/teaser"
+                    link="/content/tenant/mysite/home/test"
+                    path=""
+                    subtitle="a site with custom types"
+                    title="A Demo Site"
+                    variation="bgimage">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/content/shared/composum/pages/components/assets/background/gravitational_waves.jpg"/>
+            </teaser>
+        </stage>
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <row
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/row"
+                    columns="-12-"
+                    path=""/>
+        </main>
+    </jcr:content>
+    <test/>
+</jcr:root>
