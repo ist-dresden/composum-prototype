@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
-        xmlns:jcr="http://www.jcp.org/jcr/1.0"
-        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-        jcr:primaryType="cpp:Widget"
-        sling:resourceSuperType="composum/pages/commons/widget/select"
-        sling:resourceType="tenant/domain/project/widgets/confidentiality">
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cpp:Widget"
+          sling:resourceSuperType="composum/pages/commons/widget/select"
+          sling:resourceType="tenant/domain/project/widgets/confidentiality">
     <attributes
             jcr:primaryType="nt:unstructured"
             default="internal"
