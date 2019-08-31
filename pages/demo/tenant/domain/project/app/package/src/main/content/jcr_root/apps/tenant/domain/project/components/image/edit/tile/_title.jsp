@@ -4,5 +4,5 @@
 <cpp:defineFrameObjects/>
 <cpp:model var="model" type="com.composum.pages.commons.model.Image"
            cssBase="composum-pages-component-tile">
-    <div class="${modelCSS}_title" style="background:#c00">${cpn:text(model.tileTitle)}</div>
+    <div class="${modelCSS}_title" style="background:#c00;color:#fff;">${cpn:text(model.tileTitle)}</div>
 </cpp:model>

@@ -3,7 +3,8 @@
           xmlns:jcr="http://www.jcp.org/jcr/1.0"
           xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
           jcr:primaryType="cpp:Component"
-          jcr:title="My Image"
+          jcr:description="a simple image to demonstrate component development"
+          jcr:title="A new Image component"
           sling:resourceSuperType="composum/pages/components/element"
-          category="My Components">
+          category="[Image,adaptTo]">
 </jcr:root>

@@ -32,11 +32,6 @@
                     direction=""
                     key="en"
                     label="english"/>
-            <german
-                    jcr:primaryType="nt:unstructured"
-                    direction=""
-                    key="de"
-                    label="deutsch"/>
         </languages>
     </jcr:content>
     <home/>

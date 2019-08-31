@@ -15,7 +15,7 @@
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/search/field"
                     buttonSymbol="search"
-                    searchResultPath="/content/tenant/site/meta/search"/>
+                    searchResultPath="/content/sites/mysite/meta/search"/>
         </search>
         <stage
                 jcr:primaryType="cpp:Container"
@@ -27,7 +27,7 @@
             <teaser
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/tenant/site/home/test"
+                    link="/content/sites/mysite/home/test"
                     path=""
                     subtitle="component test playground"
                     text="Switch to the playground and place your components on that page to test the editing and the final presentation."
@@ -75,7 +75,7 @@
                             title="A Test Page"
                             variation="symbol">
                         <image
-                jcr:primaryType="nt:unstructured"/>
+                                jcr:primaryType="nt:unstructured"/>
                     </teaser>
                 </column-1>
             </row_1160738332>
