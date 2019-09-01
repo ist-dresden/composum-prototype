@@ -4,7 +4,7 @@
         jcr:mixinTypes="[mix:language]"
         jcr:primaryType="sling:Folder"
         sling:basename="tenant-domain-project">
-    <general jcr:primaryType="sling:Folder"><!-- general phrases -->
+    <widgets jcr:primaryType="sling:Folder"><!-- widget labels and values -->
 
         <confidentiality jcr:primaryType="sling:MessageEntry"
                 sling:key="Confidentiality" sling:message="Vertraulichkeit"/>
@@ -19,5 +19,14 @@
         <public jcr:primaryType="sling:MessageEntry"
                 sling:key="public" sling:message="öffentlich"/>
 
-    </general>
+    </widgets>
+    <tools jcr:primaryType="sling:Folder"><!-- tools labels -->
+
+        <mycontext-headline jcr:primaryType="sling:MessageEntry"
+                sling:key="My new panel - visible if an Element is selected."
+                sling:message="Mein neues Panel - sichtbar, wenn ein Element selektiert ist."/>
+        <mycontext-selected jcr:primaryType="sling:MessageEntry"
+                sling:key="the selected element:" sling:message="das gewählte Element:"/>
+
+    </tools>
 </jcr:root>

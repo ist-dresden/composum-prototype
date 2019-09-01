@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="sling:Folder"
+        jcr:description="the tools declaration for the example tools"
+        sling:resourceType="composum/pages/tools/collection">
+    <mycontext
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tenant/domain/project/tools/mycontext"
+            categories="[context,element,edit,develop]"
+            iconClass="graduation-cap"
+            hint="A context tool example"
+            title="My Context"
+            order="{Long}200"/>
+</jcr:root>
