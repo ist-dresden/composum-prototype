@@ -34,7 +34,7 @@
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
                             path=""
-                            text="&lt;p>The requested page was not found on this site.&lt;/p>&lt;p>Use our sitemap, the navigation menu or search for the appropriate page.&lt;/p>"/>
+                            text="&lt;p>The requested page was not found on this site.&lt;/p>&lt;p>Use our sitemap, the navigation menu or search the appropriate page:&lt;/p>"/>
                     <field
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/search/field"

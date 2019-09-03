@@ -80,6 +80,9 @@
                 </column-1>
             </row_1160738332>
         </main>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Home"/>
     </jcr:content>
     <test/>
 </jcr:root>

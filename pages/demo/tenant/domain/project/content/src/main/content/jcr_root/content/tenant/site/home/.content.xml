@@ -68,18 +68,21 @@
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/teaser"
                             icon="bullseye"
-                            link="/content/sites/mysite/home/test"
+                            link="/content/tenant/site/home/test"
                             path=""
                             subtitle="component test playground"
                             text="Switch to the playground and place your components on that page to test the editing and the final presentation."
                             title="A Test Page"
                             variation="symbol">
                         <image
-                jcr:primaryType="nt:unstructured"/>
+                                jcr:primaryType="nt:unstructured"/>
                     </teaser>
                 </column-1>
             </row_1160738332>
         </main>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Home"/>
     </jcr:content>
     <test/>
 </jcr:root>

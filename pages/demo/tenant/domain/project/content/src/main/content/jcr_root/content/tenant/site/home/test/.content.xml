@@ -30,13 +30,8 @@
                         <image
                                 jcr:primaryType="cpp:Element"
                                 sling:resourceType="composum/pages/components/element/image"
-                                imageRef="/content/tenant/mysite/assets/demo/Boats-panoramio-15.jpg"/>
+                                imageRef="/content/tenant/site/assets/images/wikimedia/Sydney_Opera_House_-_Dec_2008.jpg"/>
                     </textimage>
-                    <image_2120240913
-                            jcr:primaryType="cpp:Element"
-                            sling:resourceType="tenant/domain/project/components/image"
-                            imageRef="/content/tenant/mysite/assets/demo/Australia_Square_Sydney_2007.jpg"
-                            path=""/>
                     <text
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
@@ -47,11 +42,8 @@
                             sling:resourceType="composum/pages/components/element/video"
                             controls="{Boolean}true"
                             path=""
-                            videoRef="/content/tenant/mysite/assets/demo/Nebula - 6044.mp4"/>
+                            videoRef="/content/tenant/site/assets/video/pixabay/Nebula - 6044.mp4"/>
                 </column-0>
-                <column-1
-                        jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column"/>
             </row>
         </main>
         <top
@@ -61,12 +53,15 @@
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/title"
                     path=""
-                    subtitle="a content page with the demo compnent"
-                    title="the test page">
+                    subtitle="a test page to place the demo compnent"
+                    title="Test Page">
                 <image
                         jcr:primaryType="nt:unstructured"
                         imageRef="/content/shared/composum/pages/components/assets/background/synchlotron.jpg"/>
             </title>
         </top>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Playground"/>
     </jcr:content>
 </jcr:root>

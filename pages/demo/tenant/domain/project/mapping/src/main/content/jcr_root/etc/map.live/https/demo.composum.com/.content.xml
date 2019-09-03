@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="sling:Mapping"
+        sling:match="demo\\.composum\\.com"
+        sling:internalRedirect="[/public/tenant/site]">
+    <shared
+            jcr:primaryType="sling:Mapping"
+            sling:internalRedirect="[/public/shared]"/>
+    <assets
+            jcr:primaryType="sling:Mapping"
+            sling:internalRedirect="[/public/tenant/site/assets]">
+        <shared
+                jcr:primaryType="sling:Mapping"
+                sling:internalRedirect="[/public/shared/assets]"/>
+    </assets>
+    <apps
+            jcr:primaryType="sling:Mapping"
+            sling:internalRedirect="[/apps/tenant]">
+        <shared
+                jcr:primaryType="sling:Mapping"
+                sling:internalRedirect="[/apps/shared]"/>
+    </apps>
+    <libs
+            jcr:primaryType="sling:Mapping"
+            sling:internalRedirect="[/libs]"/>
+    <bin
+            jcr:primaryType="sling:Mapping"
+            sling:internalRedirect="[/bin]"/>
+</jcr:root>

@@ -21,6 +21,7 @@
     <properties>
         <bundle.category>tenant.domain</bundle.category>
         <package.group>com/tenant/domain</package.group>
+        <package.company>Composum Pages Demo</package.company>
         <sling.scheme>http</sling.scheme>
         <sling.host>localhost</sling.host>
         <sling.port>8080</sling.port>
@@ -29,7 +30,8 @@
 
     <modules>
         <module>app</module><!-- the application resources - components, templates, bundles -->
-        <module>content</module><!-- the resources of the initial content -->
+        <module>content</module><!-- the resources of the initial / test content -->
+        <module>mapping</module><!-- the resolver mapping rules for the public content -->
     </modules>
 
     <dependencyManagement>

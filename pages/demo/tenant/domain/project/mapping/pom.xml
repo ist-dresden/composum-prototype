@@ -8,17 +8,18 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tenant-domain-project-content</artifactId>
+    <artifactId>tenant-domain-project-mapping</artifactId>
     <packaging>content-package</packaging>
 
-    <name>Demo Tenant Domain Project Content</name>
-    <description>Content package for Demo Project</description>
+    <name>Demo Tenant Domain Project Mapping</name>
+    <description>resolver mapping for Demo Project</description>
 
     <build>
         <resources>
 
             <resource>
                 <directory>src/main/content/jcr_root</directory>
+                <filtering>false</filtering>
                 <excludes>
                     <exclude>**/.vlt*</exclude>
                     <exclude>**/.DS_Store</exclude>
@@ -47,10 +48,10 @@
 
                     <filters>
                         <filter>
-                            <root>/content/sites/mysite</root>
+                            <root>/etc/map.live/http/demo.composum.com</root>
                         </filter>
                         <filter>
-                            <root>/content/tenant/site</root>
+                            <root>/etc/map.live/https/demo.composum.com</root>
                         </filter>
                     </filters>
 
@@ -59,31 +60,6 @@
 
         </plugins>
     </build>
-    <dependencies>
-
-        <!-- Composum Pages -->
-        <dependency>
-            <groupId>com.composum.pages</groupId>
-            <artifactId>composum-pages-commons-bundle</artifactId>
-        </dependency>
-
-        <!-- Composum Core -->
-        <dependency>
-            <groupId>com.composum.sling.core</groupId>
-            <artifactId>composum-sling-core-commons</artifactId>
-        </dependency>
-
-        <!-- Taglib support -->
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.scripting.jsp.taglib</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-        </dependency>
-
-    </dependencies>
     <profiles>
 
         <profile>
@@ -97,9 +73,12 @@
         </profile>
         <profile>
             <id>installTestContent</id>
+        </profile>
+        <profile>
+            <id>installMapping</id>
             <activation>
                 <property>
-                    <name>deploy.testContent</name>
+                    <name>deploy.mapping</name>
                     <value>true</value>
                 </property>
             </activation>
@@ -120,9 +99,6 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-        <profile>
-            <id>installMapping</id>
         </profile>
 
     </profiles>

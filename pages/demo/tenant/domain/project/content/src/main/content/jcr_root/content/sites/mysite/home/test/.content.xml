@@ -6,7 +6,6 @@
           jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
-            jcr:title="Component Test"
             sling:resourceType="composum/pages/components/page"
             template="/libs/composum/pages/components/templates/page/test">
         <main
@@ -20,12 +19,30 @@
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
-                    <image_47724153
+                    <textimage
                             jcr:primaryType="cpp:Element"
-                            sling:resourceType="tenant/domain/project/components/image"
-                            confidentiality="confidential"
-                            imageRef="/content/tenant/site/assets/images/wikimedia/Chome_Shibuya_Shibuya-ku_Tokyo-to_150-0002_Japan-panoramio_2.jpg"
-                            path=""/>
+                            sling:resourceType="composum/pages/components/element/textimage"
+                            floatingText="{Boolean}true"
+                            imagePosition="left"
+                            path=""
+                            text="&lt;p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam&lt;/p>"
+                            title="an image with text">
+                    <image
+                            jcr:primaryType="cpp:Element"
+                                sling:resourceType="composum/pages/components/element/image"
+                                imageRef="/content/tenant/site/assets/images/wikimedia/Sydney_Opera_House_-_Dec_2008.jpg"/>
+                    </textimage>
+                    <text
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/pages/components/element/text"
+                            path=""
+                            text="&lt;p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam&lt;/p>"/>
+                    <video
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/pages/components/element/video"
+                            controls="{Boolean}true"
+                            path=""
+                            videoRef="/content/tenant/site/assets/video/pixabay/Nebula - 6044.mp4"/>
                 </column-0>
             </row>
         </main>
@@ -36,7 +53,7 @@
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/title"
                     path=""
-                    subtitle="component testing"
+                    subtitle="a test page to place the demo compnent"
                     title="Test Page">
                 <image
                         jcr:primaryType="nt:unstructured"
