@@ -5,7 +5,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <cpp:defineObjects/>
 <cpp:element var="model" type="com.composum.pages.commons.model.Image">
-    <cpp:dropZone property="imageRef" i18n="true" filter="asset:image">
+    <cpp:dropZone property="imageRef" filter="asset:image">
     <c:choose>
         <c:when test="${model.valid}">
             <div class="${modelCSS}_frame">

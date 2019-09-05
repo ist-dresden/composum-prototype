@@ -19,6 +19,8 @@
             <dd>${cpn:text(model.name)}</dd>
             <dt>${cpn:i18n(slingRequest,'Path')}</dt>
             <dd>${cpn:text(model.pathHint)}</dd>
+            <dt>${cpn:i18n(slingRequest,'Type')}</dt>
+            <dd>${cpn:text(model.typeHint)}</dd>
         </dl>
     </div>
 </cpp:element>
