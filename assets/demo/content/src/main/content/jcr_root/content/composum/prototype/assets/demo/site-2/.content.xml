@@ -3,7 +3,8 @@
         jcr:primaryType="sling:Folder">
     <jcr:content
             jcr:primaryType="nt:unstructured"
-            jcr:title="Assets Example 2">
+            jcr:title="Assets Example 2"
+            jcr:mixinTypes="[mix:versionable]">
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/manager/config"

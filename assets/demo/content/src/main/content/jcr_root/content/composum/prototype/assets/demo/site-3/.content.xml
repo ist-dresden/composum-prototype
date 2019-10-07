@@ -3,7 +3,8 @@
         jcr:primaryType="sling:Folder">
     <jcr:content
             jcr:primaryType="nt:unstructured"
-            jcr:title="Assets Example 3">
+            jcr:title="Assets Example 3"
+            jcr:mixinTypes="[mix:versionable]">
         <templates
                 jcr:primaryType="nt:unstructured">
             <image
