@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.composum.prototype</groupId>
+        <artifactId>composum-prototype-assets-pagesintegration-app</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>composum-prototype-assets-pagesintegration-app-bundle</artifactId>
+    <packaging>bundle</packaging>
+
+    <name>Example for Pages integration of Assets App Bundle</name>
+    <description>App bundle for composum-prototype-assets-pagesintegration. Test- and Exampleproject of the integration of the Assets framework into Composum Pages</description>
+
+    <properties>
+        <bundle.name>composum.prototype.assets-pagesintegration.bundle</bundle.name>
+    </properties>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-Category>${bundle.category}</Bundle-Category>
+                        <Bundle-SymbolicName>${bundle.name}</Bundle-SymbolicName>
+                        <Include-Resource>{maven-resources}</Include-Resource>
+                        <Export-Package>composum.prototype.assets.pagesintegration.*</Export-Package>
+                        <Import-Package>org.apache.sling.api.resource.*;version="[2.8.0,3)",
+                            org.apache.sling.api.*;version="[2.2.2,3)",
+                            javax.annotation.*;version="[0,4)",
+                            *</Import-Package>
+                        <Sling-Model-Packages>composum.prototype.assets.pagesintegration.*</Sling-Model-Packages>
+                    </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.source}</source>
+                    <target>${java.target}</target>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+    <dependencies>
+
+        <!-- Composum Pages -->
+        <dependency>
+            <groupId>com.composum.pages</groupId>
+            <artifactId>composum-pages-commons-bundle</artifactId>
+        </dependency>
+
+        <!-- Composum Core -->
+        <dependency>
+            <groupId>com.composum.sling.core</groupId>
+            <artifactId>composum-sling-core-commons</artifactId>
+        </dependency>
+
+        <!-- Sling, JCR -->
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.api</artifactId>
+        </dependency>
+
+        <!-- Web Application API -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+        </dependency>
+
+    </dependencies>
+    <profiles>
+
+        <profile>
+            <id>installPackage</id>
+        </profile>
+        <profile>
+            <id>installContent</id>
+        </profile>
+        <profile>
+            <id>installTestContent</id>
+        </profile>
+        <profile>
+            <id>installMapping</id>
+        </profile>
+
+    </profiles>
+</project>

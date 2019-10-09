@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.composum.meta.ist</groupId>
+        <artifactId>parent-2</artifactId>
+        <version>1.1</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.composum.prototype</groupId>
+    <artifactId>composum-prototype-assets-pagesintegration</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Example for Pages integration of Assets</name>
+    <description>Test- and Exampleproject of the integration of the Assets framework into Composum Pages</description>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Composum Pages -->
+            <dependency>
+                <groupId>com.composum.pages</groupId>
+                <artifactId>composum-pages-commons-bundle</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <!-- Composum Core -->
+            <dependency>
+                <groupId>com.composum.sling.core</groupId>
+                <artifactId>composum-sling-core-commons</artifactId>
+                <version>1.11.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+  <modules>
+    <module>app</module>
+    <module>content</module>
+  </modules>
+</project>
