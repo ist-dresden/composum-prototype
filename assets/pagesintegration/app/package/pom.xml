@@ -75,7 +75,7 @@
 
                     <filters>
                         <filter>
-                            <root>/apps/composum/prototype/assets-pagesintegration</root>
+                            <root>/apps/composum/prototype/assets/pagesintegration</root>
                         </filter>
                         <filter>
                             <root>/apps/composum/prototype/install</root>
