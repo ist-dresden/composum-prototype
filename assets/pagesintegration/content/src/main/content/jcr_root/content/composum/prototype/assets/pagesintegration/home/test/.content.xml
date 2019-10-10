@@ -18,7 +18,24 @@
                     path="">
                 <column-0
                         jcr:primaryType="cpp:Container"
-                        sling:resourceType="composum/pages/components/container/row/column"/>
+                        sling:resourceType="composum/pages/components/container/row/column">
+                    <text
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/pages/components/element/text"
+                            path=""
+                            text="Some simple asset:"/>
+                    <asset
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/prototype/assets/pagesintegration/components/simpleasset"
+                            assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                            rendition="medium"
+                            variation="square"/>
+                    <text_1777266254
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/pages/components/element/text"
+                            path=""
+                            text="Asset ends."/>
+                </column-0>
             </row>
         </main>
         <top

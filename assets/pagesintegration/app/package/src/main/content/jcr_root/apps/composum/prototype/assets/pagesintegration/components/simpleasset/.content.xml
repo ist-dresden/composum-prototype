@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cpp:Component"
+          jcr:description="Demonstration component for displaying an asset as simple as possible"
+          jcr:title="Simple Asset"
+          sling:resourceSuperType="composum/pages/components/element/asset"
+          category="[Image]"
+          componentType="cpp:Element">
+</jcr:root>
