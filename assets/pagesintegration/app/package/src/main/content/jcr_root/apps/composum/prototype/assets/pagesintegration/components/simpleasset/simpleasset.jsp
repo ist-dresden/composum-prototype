@@ -4,4 +4,6 @@
 <%@taglib prefix="cpp" uri="http://sling.composum.com/cppl/1.0" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <cpp:defineObjects/>
-<sling:include resource="${resource}" resourceType="composum/prototype/assets/demo/image/asset" replaceSuffix="html"/>
+<cpp:element var="asset" type="com.composum.pages.commons.model.GenericModel">
+    <sling:include resource="${resource}" resourceType="composum/prototype/assets/demo/image/asset"/>
+</cpp:element>
