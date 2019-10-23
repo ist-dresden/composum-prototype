@@ -84,4 +84,5 @@
                 title="Home"/>
     </jcr:content>
     <test/>
+    <noassets/>
 </jcr:root>
