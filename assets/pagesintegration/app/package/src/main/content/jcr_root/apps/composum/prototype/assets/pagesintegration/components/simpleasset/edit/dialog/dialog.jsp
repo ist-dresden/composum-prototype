@@ -6,6 +6,6 @@
 <cpp:editDialog title="Asset Properties">
     <cpp:widget label="Asset" property="assetPath" type="pathfield"
                 hint="the path to the image asset in the repository or an URL"/>
-    <cpp:widget label="Rendition" property="rendition" type="textfield"/>
     <cpp:widget label="Variation" property="variation" type="textfield"/>
+    <cpp:widget label="Rendition" property="rendition" type="textfield"/>
 </cpp:editDialog>

@@ -4,7 +4,7 @@
     <jcr:content
             jcr:primaryType="nt:unstructured"
             jcr:title="Assets Example 1"
-            jcr:mixinTypes="[mix:versionable]">
+            jcr:mixinTypes="[mix:versionable,mix:created,mix:lastModified]">
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/manager/config"

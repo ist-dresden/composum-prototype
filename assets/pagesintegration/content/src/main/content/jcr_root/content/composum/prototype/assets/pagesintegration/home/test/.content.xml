@@ -27,7 +27,7 @@
                     <asset
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/prototype/assets/pagesintegration/components/simpleasset"
-                            assetPath="/content/composum/prototype/assets/demo/site-3/images/image-03.jpg"
+                            assetPath="/content/composum/prototype/assets/pagesintegration/assets/testbild.png"
                             rendition="medium"
                             variation="square"/>
                     <text_1777266254
@@ -41,7 +41,7 @@
                             assetPath="/content/composum/prototype/assets/demo/site-3/images/image-02.jpg"
                             path=""
                             rendition="medium"
-                            variation="square"/>
+                            variation="thumbnail"/>
                 </column-0>
                 <column-1
                         jcr:primaryType="cpp:Container"

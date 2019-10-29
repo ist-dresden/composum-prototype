@@ -4,7 +4,7 @@
     <jcr:content
             jcr:primaryType="nt:unstructured"
             jcr:title="Assets Example 3"
-            jcr:mixinTypes="[mix:versionable]">
+            jcr:mixinTypes="[mix:versionable,mix:created,mix:lastModified]">
         <templates
                 jcr:primaryType="nt:unstructured">
             <image
