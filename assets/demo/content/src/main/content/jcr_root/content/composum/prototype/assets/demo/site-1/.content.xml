@@ -8,7 +8,7 @@
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/manager/config"
-                example.image.path="/content/prototype/composum/assets/site-1/images/image-01.png"
+                example.image.path="/content/composum/prototype/assets/demo/site-1/images/image-1.png"
                 file.png.quality="82.5">
             <bar
                     jcr:primaryType="cpa:VariationConfig"

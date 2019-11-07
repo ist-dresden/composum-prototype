@@ -29,7 +29,7 @@
                             text="&lt;p>This page demonstrates that picures and videos can be JCR-versioned and used with pages without using the Assets module. The image and video used in this page got a mix:versionable mixin, and can be activated and published together with the pages, without using the Composum Assets module.&lt;/p>">
                         <image
                                 jcr:primaryType="nt:unstructured"
-                                imageRef="/content/composum/prototype/assets/pagesintegration/assets/background/gravitational_waves.jpg"/>
+                                imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational_waves.jpg"/>
                     </textimage>
                     <video
                             jcr:primaryType="cpp:Element"
@@ -42,7 +42,7 @@
                             loop="{Boolean}true"
                             muted="{Boolean}true"
                             path=""
-                            videoRef="/content/composum/prototype/assets/pagesintegration/assets/pixabay/Nebula-6044.mp4"/>
+                            videoRef="/content/composum/prototype/assets/pagesintegration/releasedassets/pixabay/Nebula-6044.mp4"/>
                 </column-0>
             </row>
         </main>
@@ -59,7 +59,7 @@
                     title="Versioning without the Assets module">
                 <image
                         jcr:primaryType="nt:unstructured"
-                        imageRef="/content/composum/prototype/assets/pagesintegration/assets/background/gravitational_waves.jpg"/>
+                        imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational_waves.jpg"/>
             </title>
         </top>
     </jcr:content>
