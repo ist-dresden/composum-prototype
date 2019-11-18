@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpa="http://sling.composum.com/assets/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:file">
+    <jcr:content
+            jcr:primaryType="nt:resource"
+            jcr:mimeType="image/jpeg"
+            jcr:mixinTypes="[cpa:AssetResource]">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                Author="Dietmar Rabich"
+                Color_x0020_space="RGB"
+                Compression="JPEG (old-style)"
+                Compression_x0020_Type="Baseline"
+                Content-Type="image/jpeg"
+                Copyright="Copyright (c) 1998 Hewlett-Packard Company"
+                Data_x0020_Precision="8 bits"
+                Date-Time="2016:02:04 18:10:02"
+                Date-Time_x0020_Original="2015:11:08 07:48:23"
+                File_x0020_Size="4983148 bytes"
+                Image_x0020_Height="2592 pixels"
+                Image_x0020_Width="4608 pixels"
+                Last-Modified="2016-02-04T19:10:02"
+                X_x0020_Resolution="72 dots per inch"
+                Y_x0020_Resolution="72 dots per inch"
+                date="{Date}2016-02-04T18:10:02.000+01:00"
+                height="{Long}2592"
+                modified="2016-02-04T19:10:02"
+                size="{Long}4983148"
+                width="{Long}4608"/>
+    </jcr:content>
+</jcr:root>

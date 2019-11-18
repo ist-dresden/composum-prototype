@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpa="http://sling.composum.com/assets/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:file">
+    <jcr:content
+            jcr:primaryType="nt:resource"
+            jcr:mimeType="image/png"
+            jcr:mixinTypes="[cpa:AssetResource]">
+        <meta
+                jcr:primaryType="cpa:MetaData"
+                Chroma_x0020_ColorSpaceType="RGB"
+                Compression_x0020_CompressionTypeName="deflate"
+                Compression_x0020_Lossless="true"
+                Compression_x0020_NumProgressiveScans="1"
+                Content-Type="image/png"
+                Data_x0020_BitsPerSample="8 8 8 8"
+                Data_x0020_PlanarConfiguration="PixelInterleaved"
+                Data_x0020_SampleFormat="UnsignedIntegral"
+                Dimension_x0020_ImageOrientation="Normal"
+                Dimension_x0020_PixelAspectRatio="1.0"
+                Transparency_x0020_Alpha="nonpremultipled"
+                height="{Long}1500"
+                size="{Long}120063"
+                width="{Long}2000"/>
+    </jcr:content>
+</jcr:root>
