@@ -9,6 +9,7 @@ import com.composum.assets.commons.AssetsConstants;
 import com.composum.assets.commons.config.AssetConfig;
 import com.composum.assets.commons.handle.AssetMetaData;
 import com.composum.assets.commons.handle.ImageAsset;
+import com.composum.assets.commons.util.ImageUtil;
 import com.composum.sling.core.AbstractSlingBean;
 import com.composum.sling.core.BeanContext;
 import com.composum.sling.core.ResourceHandle;
@@ -106,6 +107,6 @@ public class AssetBean extends AbstractSlingBean {
 
     public String getImageUri(String variationKey, String renditionKey) {
         ImageAsset theasset = getAsset();
-        return theasset != null ? theasset.getImageUri(variationKey, renditionKey) : null;
+        return theasset != null ? ImageUtil.getImageUri(theasset, variationKey, renditionKey) : null;
     }
 }
