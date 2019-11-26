@@ -6,9 +6,9 @@
     <jcr:content
             jcr:primaryType="nt:resource"
             jcr:mimeType="image/jpeg"
-            jcr:mixinTypes="[cpa:AssetResource]">
+            jcr:mixinTypes="[cpl:Resource]">
         <meta
-                jcr:primaryType="cpa:MetaData"
+                jcr:primaryType="cpl:MetaData"
                 Color_x0020_space="RGB"
                 Compression="JPEG (old-style)"
                 Compression_x0020_Type="Baseline"

@@ -18,7 +18,7 @@
                     crop.vertical="0.76"/>
         </imageconfig>
         <meta
-                jcr:primaryType="cpa:MetaData"
+                jcr:primaryType="cpl:MetaData"
                 sling:resourceType="composum/assets/manager/image/meta"
                 author="flickr user 'Truello' = Andy from Pittsburgh, USA"
                 authorUrl="http://www.flickr.com/people/truello/"

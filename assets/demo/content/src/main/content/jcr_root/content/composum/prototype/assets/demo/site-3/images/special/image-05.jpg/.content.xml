@@ -5,7 +5,7 @@
     <jcr:content
             jcr:primaryType="cpa:AssetContent">
         <meta
-                jcr:primaryType="cpa:MetaData"
+                jcr:primaryType="cpl:MetaData"
                 sling:resourceType="composum/assets/manager/image/meta"
                 author="Uoaei1"
                 authorUrl="https://commons.wikimedia.org/wiki/User:Uoaei1"
