@@ -48,6 +48,8 @@
                     <filters>
                         <filter>
                             <root>/content/composum/prototype/assets/pagesintegration</root>
+                        </filter>
+                        <filter>
                             <root>/conf/composum/prototype/assets/pagesintegration</root>
                         </filter>
                     </filters>
