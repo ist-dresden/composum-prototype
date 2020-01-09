@@ -7,4 +7,6 @@
         relPath="."
         enabled="{Boolean}true"
         releaseMark="public"
+        name="same server"
+        description="For debugging - replication to the testserver itself at 9090, which needs to be configured to use debugging root."
 />

@@ -7,4 +7,6 @@
         relPath="."
         enabled="{Boolean}false"
         releaseMark="public"
+        name="2nd local server"
+        description="Replication to a second local server at port 9100."
 />
