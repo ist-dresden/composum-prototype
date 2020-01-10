@@ -3,7 +3,7 @@
 <%@taglib prefix="cpn" uri="http://sling.composum.com/cpnl/1.0" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <sling:defineObjects/>
-<cpn:component id="image" type="com.composum.prototype.assets.example.ImageBean">
+<cpn:component id="image" type="com.composum.prototype.assets.demo.ImageBean">
     <div class="composum-prototype-assets-example-image-simple simple image">
         <figure>
             <div class="image-background"

@@ -3,7 +3,7 @@
 <%@taglib prefix="cpn" uri="http://sling.composum.com/cpnl/1.0" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <sling:defineObjects/>
-<cpn:component id="parsys" type="com.composum.prototype.assets.example.ContainerBean">
+<cpn:component id="parsys" type="com.composum.prototype.assets.demo.ContainerBean">
     <div class="row">
         <div class="col col-xs-12">
             <div class="example parsys">

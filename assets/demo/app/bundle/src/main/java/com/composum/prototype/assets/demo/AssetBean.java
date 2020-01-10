@@ -3,7 +3,7 @@
  *
  * This software may be modified and distributed under the terms of the MIT license.
  */
-package com.composum.prototype.assets.example;
+package com.composum.prototype.assets.demo;
 
 import com.composum.assets.commons.AssetsConstants;
 import com.composum.assets.commons.config.AssetConfig;
@@ -86,14 +86,14 @@ public class AssetBean extends AbstractSlingBean {
 
     public String getVariation() {
         if (variation == null) {
-            variation = getProperty(AssetsConstants.PROP_VARIATION, "");
+            variation = getProperty(AssetsConstants.VARIATION, "");
         }
         return variation;
     }
 
     public String getRendition() {
         if (rendition == null) {
-            rendition = getProperty(AssetsConstants.PROP_RENDITION, "");
+            rendition = getProperty(AssetsConstants.RENDITION, "");
         }
         return rendition;
     }

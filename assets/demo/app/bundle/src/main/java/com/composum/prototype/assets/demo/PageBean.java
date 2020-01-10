@@ -1,4 +1,4 @@
-package com.composum.prototype.assets.example;
+package com.composum.prototype.assets.demo;
 
 import com.composum.sling.core.AbstractSlingBean;
 import com.composum.sling.core.BeanContext;

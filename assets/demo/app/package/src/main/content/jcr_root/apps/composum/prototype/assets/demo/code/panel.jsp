@@ -3,7 +3,7 @@
 <%@taglib prefix="cpn" uri="http://sling.composum.com/cpnl/1.0" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <sling:defineObjects/>
-<cpn:component id="code" type="com.composum.prototype.assets.example.CodeBean">
+<cpn:component id="code" type="com.composum.prototype.assets.demo.CodeBean">
     <div class="composum-prototype-assets-example-code_panel panel panel-default">
         <c:if test="${code.showHeading}">
             <div class="composum-prototype-assets-example-code_heading panel-heading">
