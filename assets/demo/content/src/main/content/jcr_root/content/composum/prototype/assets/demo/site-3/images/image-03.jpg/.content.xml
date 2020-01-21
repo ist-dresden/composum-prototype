@@ -7,15 +7,15 @@
             jcr:title="Image 3">
         <imageconfig
                 jcr:primaryType="cpa:ImageConfiguration"
-                sling:resourceType="composum/assets/manager/config">
+                sling:resourceType="composum/assets/config">
             <square
                     jcr:primaryType="cpa:VariationConfig"
                     sling:resourceType="composum/assets/manager/config/variation"
-                    crop.horizontal="0.8"/>
+                    crop_horizontal="0.8"/>
             <wide
                     jcr:primaryType="cpa:VariationConfig"
                     sling:resourceType="composum/assets/manager/config/variation"
-                    crop.vertical="0.76"/>
+                    crop_vertical="0.76"/>
         </imageconfig>
         <meta
                 jcr:primaryType="cpl:MetaData"
