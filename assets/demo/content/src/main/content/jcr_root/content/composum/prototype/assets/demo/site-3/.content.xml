@@ -53,7 +53,7 @@
                         sling:resourceType="composum/assets/manager/config/rendition"
                         size_aspectRatio="1:1"
                         size_width="128"
-                        watermark_text=""/>
+                        watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
@@ -80,7 +80,7 @@
                         sling:resourceType="composum/assets/manager/config/rendition"
                         categories="[icon]"
                         size_width="128"
-                        watermark_text=""/>
+                        watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
@@ -101,7 +101,7 @@
             <thumbnail
                     jcr:primaryType="cpa:VariationConfig"
                     sling:resourceType="composum/assets/manager/config/variation"
-                    watermark_text="">
+                    watermark_text="none">
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
@@ -125,7 +125,7 @@
                         sling:resourceType="composum/assets/manager/config/rendition"
                         size_aspectRatio="1:1"
                         size_width="128"
-                        watermark_text=""/>
+                        watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
