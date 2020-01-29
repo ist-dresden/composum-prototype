@@ -7,40 +7,42 @@
             jcr:mixinTypes="[mix:versionable]">
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
-                sling:resourceType="composum/assets/manager/config"
-                example.image.path="/content/composum/prototype/assets/demo/site-3/extended/image-04.jpg"
+                sling:resourceType="composum/assets/config"
+                jcr:title="Extension Example"
+                jcr:description="This is an extension with an additional variation and the same renditions as declared in the base configuration."
+                example_image_path="/content/composum/prototype/assets/demo/site-3/extended/image-04.jpg"
                 extension="true"
-                file.jpg.quality="60"
-                crop.horizontal="0.35"
-                crop.vertical="0.7"
-                watermark.font.family="monospaced"
-                watermark.font.size="16"
-                watermark.alpha="0.7">
+                file_jpg_quality="60"
+                crop_horizontal="0.35"
+                crop_vertical="0.7"
+                watermark_font_family="monospaced"
+                watermark_font_size="16"
+                watermark_alpha="0.7">
             <extrahigh
                     jcr:primaryType="cpa:VariationConfig"
                     sling:resourceType="composum/assets/manager/config/variation"
-                    size.aspectRatio="1:3"
-                    watermark.vertical="0.99"
-                    watermark.color="#ffee00">
+                    size_aspectRatio="1:3"
+                    watermark_vertical="0.99"
+                    watermark_color="#ffee00">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        size.aspectRatio="1:1"
-                        size.width="128"
-                        watermark.text=""/>
+                        size_aspectRatio="1:1"
+                        size_width="128"
+                        watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        size.width="240"/>
+                        size_width="240"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
-                        size.width="360"/>
+                        category="[default]"
+                        size_width="360"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        size.width="480"/>
+                        size_width="480"/>
             </extrahigh>
         </assetconfig>
     </jcr:content>
