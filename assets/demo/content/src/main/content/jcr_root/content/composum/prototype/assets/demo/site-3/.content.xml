@@ -15,6 +15,7 @@
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/config"
+                jcr:title="Configuration Example #3"
                 example_image_path="/content/composum/prototype/assets/demo/site-3/images/image-01.jpg"
                 file_jpg_quality="82.5"
                 watermark_text="(c) Wikimedia Commons"
@@ -37,7 +38,7 @@
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
+                        category="[default]"
                         size_width="800"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
@@ -47,7 +48,7 @@
             <normal
                     jcr:primaryType="cpa:VariationConfig"
                     sling:resourceType="composum/assets/manager/config/variation"
-                    categories="[default]">
+                    category="[default]">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
@@ -63,7 +64,7 @@
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
+                        category="[default]"
                         size_width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
@@ -78,19 +79,19 @@
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[icon]"
+                        category="[icon]"
                         size_width="128"
                         watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[mobile,default]"
+                        category="[mobile,default]"
                         size_width="480"
                         watermark_font_size="12"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[tablet]"
+                        category="[tablet]"
                         size_width="640"
                         watermark_font_size="18"/>
                 <large
@@ -109,7 +110,7 @@
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
+                        category="[default]"
                         size_width="128"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
@@ -133,7 +134,7 @@
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
+                        category="[default]"
                         size_width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"

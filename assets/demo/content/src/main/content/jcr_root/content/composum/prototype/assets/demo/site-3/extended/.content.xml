@@ -8,6 +8,8 @@
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/config"
+                jcr:title="Extension Example"
+                jcr:description="This is an extension with an additional variation and the same renditions as declared in the base configuration."
                 example_image_path="/content/composum/prototype/assets/demo/site-3/extended/image-04.jpg"
                 extension="true"
                 file_jpg_quality="60"
@@ -35,7 +37,7 @@
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
                         sling:resourceType="composum/assets/manager/config/rendition"
-                        categories="[default]"
+                        category="[default]"
                         size_width="360"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
