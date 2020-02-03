@@ -9,7 +9,7 @@
                 jcr:primaryType="nt:unstructured">
             <image
                     jcr:primaryType="nt:unstructured"
-                    picture="/content/composum/prototype/assets/demo/templates/image/picture.html">
+                    picture="composum/prototype/assets/demo/image/template/picture.html">
             </image>
         </templates>
         <assetconfig
@@ -27,118 +27,118 @@
                 watermark_alpha="0.3">
             <blurred
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     transformation_blur_factor="9">
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="320"
                         watermark_font_size="18"
                         watermark_horizontal="-15"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size_width="800"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="1600"/>
             </blurred>
             <normal
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     category="[default]">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_aspectRatio="1:1"
                         size_width="128"
                         watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="600"
                         watermark_font_size="18"
                         watermark_horizontal="-15"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size_width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="1600"/>
             </normal>
             <square
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     size_aspectRatio="1:1"
                     watermark_horizontal="-10">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[icon]"
                         size_width="128"
                         watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[mobile,default]"
                         size_width="480"
                         watermark_font_size="12"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[tablet]"
                         size_width="640"
                         watermark_font_size="18"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="800"/>
             </square>
             <thumbnail
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     watermark_text="none">
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="32"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size_width="128"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="512"/>
             </thumbnail>
             <wide
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     size_aspectRatio="3:1">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_aspectRatio="1:1"
                         size_width="128"
                         watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="640"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size_width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="2400"/>
             </wide>
         </assetconfig>

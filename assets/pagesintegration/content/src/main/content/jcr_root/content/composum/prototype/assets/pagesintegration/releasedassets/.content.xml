@@ -7,18 +7,18 @@
             jcr:mixinTypes="[mix:versionable]">
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
-                sling:resourceType="composum/assets/manager/config"
+                sling:resourceType="composum/assets/config"
                 example.image.path="/content/composum/prototype/assets/pagesintegration/releasedassets/testbild.png"
                 file.png.quality="82.5">
             <bar
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     size.aspectRatio="5:1"
                     crop.horizontal="0"
                     crop.vertical="0">
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         crop.horizontal="0.5"
                         crop.vertical="0.5"
@@ -26,39 +26,39 @@
                         size.width="640"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size.width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="1920"
                         transformation.blur.factor="default"/>
             </bar>
             <thumbnail
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation">
+                    sling:resourceType="composum/assets/config/variation">
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="32"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size.width="128"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="512"/>
             </thumbnail>
             <vertical
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     size.aspectRatio="1:5">
                 <half-scale
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         crop.horizontal="0.6"
                         crop.vertical="0.5"
@@ -66,43 +66,43 @@
                         size.height="400"/>
                 <target-scale
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         crop.vertical="0.7"
                         crop.scale="0.8"
                         size.height="400"/>
                 <no-scale
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         crop.scale="0"
                         size.height="400"/>
                 <no-explicit-crop
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.height="400"/>
             </vertical>
             <wide
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     category="[default]"
                     size.aspectRatio="16:9">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default,icon]"
                         size.aspectRatio="1:1"
                         size.width="128"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="640"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size.width="1920"/>
             </wide>
         </assetconfig>

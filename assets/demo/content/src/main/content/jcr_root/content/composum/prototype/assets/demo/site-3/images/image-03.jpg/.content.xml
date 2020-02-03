@@ -10,16 +10,16 @@
                 sling:resourceType="composum/assets/config">
             <square
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     crop_horizontal="0.8"/>
             <wide
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     crop_vertical="0.76"/>
         </imageconfig>
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 author="flickr user 'Truello' = Andy from Pittsburgh, USA"
                 authorUrl="http://www.flickr.com/people/truello/"
                 copyright=""

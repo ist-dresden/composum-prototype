@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 author="Shermanlai"
                 authorUrl="https://commons.wikimedia.org/w/index.php?title=User:Shermanlai&amp;action=edit&amp;redlink=1"
                 license="public domain"

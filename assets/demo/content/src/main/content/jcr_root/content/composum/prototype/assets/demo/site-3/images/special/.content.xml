@@ -4,7 +4,7 @@
     <jcr:content
             jcr:primaryType="nt:unstructured"
             jcr:title="Assets Example Special Images"
-            jcr:mixinTypes="[mix:versionable]">
+            jcr:mixinTypes="[mix:versionable,mix:created,mix:lastModified]">
         <assetconfig
                 jcr:primaryType="cpa:AssetConfiguration"
                 sling:resourceType="composum/assets/config"
@@ -21,27 +21,27 @@
                 watermark_alpha="0.5">
             <special
                     jcr:primaryType="cpa:VariationConfig"
-                    sling:resourceType="composum/assets/manager/config/variation"
+                    sling:resourceType="composum/assets/config/variation"
                     category="[default]"
                     size_aspectRatio="5:1">
                 <thumbnail
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_aspectRatio="1:1"
                         size_width="128"
                         watermark_text="none"/>
                 <small
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="640"/>
                 <medium
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         category="[default]"
                         size_width="1024"/>
                 <large
                         jcr:primaryType="cpa:RenditionConfig"
-                        sling:resourceType="composum/assets/manager/config/rendition"
+                        sling:resourceType="composum/assets/config/rendition"
                         size_width="2400"/>
             </special>
         </assetconfig>
