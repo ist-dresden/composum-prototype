@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 copyright=""
                 credits="Petr Novák, Wikipedia"
                 date="2015-11-08"

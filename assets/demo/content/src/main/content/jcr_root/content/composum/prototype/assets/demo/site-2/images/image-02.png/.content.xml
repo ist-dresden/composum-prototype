@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 author="DemonDeLuxe (Dominique Toussaint)"
                 authorUrl="https://commons.wikimedia.org/wiki/User:DemonDeLuxe"
                 date="2006-07-19"

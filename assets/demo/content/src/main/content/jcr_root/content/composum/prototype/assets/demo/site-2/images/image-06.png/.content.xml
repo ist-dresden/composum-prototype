@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 author="User:Denelson83"
                 authorUrl="https://commons.wikimedia.org/wiki/User:Denelson83"
                 license="GNU Free Documentation License"

@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 source="Wikipedia"
                 sourceUrl="https://de.wikipedia.org/wiki/Testbild">
         </meta>

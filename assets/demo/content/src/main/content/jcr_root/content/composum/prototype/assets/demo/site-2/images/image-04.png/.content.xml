@@ -6,7 +6,7 @@
             jcr:primaryType="cpa:AssetContent">
         <meta
                 jcr:primaryType="cpl:MetaData"
-                sling:resourceType="composum/assets/manager/image/meta"
+                sling:resourceType="composum/assets/asset/meta"
                 author="Oleg Alexandrov"
                 authorUrl="https://commons.wikimedia.org/wiki/User:Oleg_Alexandrov"
                 date="2007-09-05"
