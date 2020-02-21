@@ -4,7 +4,7 @@
         xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
         jcr:primaryType="nt:unstructured"
         jcr:mixinTypes="[vlt:FullCoverage]"
-        sling:resourceType="composum/platform/replication/config/remote"
+        sling:resourceType="composum/platform/replication/remote"
         jcr:description="Remote replication to a second local server at port 9100."
         jcr:title="2nd local server"
         enabled="{Boolean}false"

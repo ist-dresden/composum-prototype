@@ -4,7 +4,7 @@
         xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
         jcr:primaryType="nt:unstructured"
         jcr:mixinTypes="[vlt:FullCoverage]"
-        sling:resourceType="composum/platform/replication/config/remote"
+        sling:resourceType="composum/platform/replication/remote"
         jcr:description="For debugging - replication to the testserver itself at 9090, which needs to be configured to use debugging root."
         jcr:title="localhost:9090"
         enabled="{Boolean}true"
