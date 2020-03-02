@@ -8,7 +8,7 @@
         jcr:description="For debugging - replication to the testserver itself at 9090, which needs to be configured to use debugging root."
         jcr:title="localhost:9090"
         enabled="{Boolean}true"
-        credentialId="/conf/composum/platform/security/credentials/composum/prototype/assets/pagesintegration/localfullsite"
+        credentialId="/composum/prototype/assets/pagesintegration/localfullsite"
         passwd="admin"
         replicationType="remote"
         sourcePath="/content/composum/prototype/assets/pagesintegration"
