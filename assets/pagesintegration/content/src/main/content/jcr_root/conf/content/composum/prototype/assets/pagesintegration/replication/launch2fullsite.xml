@@ -9,11 +9,9 @@
         jcr:title="2nd local server"
         enabled="{Boolean}false"
         credentialId="/composum/prototype/assets/pagesintegration/launch2fullsite"
-        passwd="admin"
         replicationType="remote"
         sourcePath="/content/composum/prototype/assets/pagesintegration"
         stage="public"
         targetPath="/content/composum/prototype/assets/pagesintegration"
-        targetUrl="http://localhost:9100/bin/cpm/platform/replication/publishreceiver"
-        user="admin">
+        targetUrl="http://localhost:9100/bin/cpm/platform/replication/publishreceiver">
 </jcr:root>

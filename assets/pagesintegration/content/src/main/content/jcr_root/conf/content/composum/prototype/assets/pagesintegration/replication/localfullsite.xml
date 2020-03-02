@@ -9,11 +9,9 @@
         jcr:title="localhost:9090"
         enabled="{Boolean}true"
         credentialId="/composum/prototype/assets/pagesintegration/localfullsite"
-        passwd="admin"
         replicationType="remote"
         sourcePath="/content/composum/prototype/assets/pagesintegration"
         stage="public"
         targetPath="/content/composum/prototype/assets/pagesintegration"
-        targetUrl="http://localhost:9090/bin/cpm/platform/replication/publishreceiver"
-        user="admin">
+        targetUrl="http://localhost:9090/bin/cpm/platform/replication/publishreceiver">
 </jcr:root>
