@@ -54,7 +54,7 @@
                             <root>/conf/content/composum/prototype/assets/pagesintegration</root>
                         </filter>
                         <filter>
-                            <root>/conf/composum/platform/security/credentials/composum/prototype/assets/pagesintegration</root>
+                            <root>/var/composum/platform/security/credentials/composum/prototype/assets/pagesintegration</root>
                         </filter>
                     </filters>
 
