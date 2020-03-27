@@ -7,7 +7,7 @@
           jcr:primaryType="cpp:Site">
     <jcr:content
             jcr:primaryType="cpp:SiteConfiguration"
-            cpl:last-publicMode="versions"
+            publicMode="versions"
             jcr:description="This site is for testing the integration of Composum Assets into Composum Pages, and also serves as an example how this can be done."
             jcr:title="Testsite for integration of Assets into Composum Pages"
             sling:resourceType="composum/pages/stage/edit/site"
