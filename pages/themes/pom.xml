@@ -1,39 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
-	<modelVersion>4.0.0</modelVersion>
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+    <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>com.composum.prototype</groupId>
-        <artifactId>composum-prototype</artifactId>
+        <artifactId>composum-prototype-pages</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-	<artifactId>composum-prototype-pages</artifactId>
+    <artifactId>composum-prototype-pages-themes</artifactId>
     <packaging>pom</packaging>
 
-    <name>Composum Pages Demo Apps and Content</name>
+    <name>Composum Pages Themes</name>
 
     <properties>
         <composum.pages.version>1.1.1-SNAPSHOT</composum.pages.version>
     </properties>
 
-	<modules>
-        <module>simple</module>
-        <module>demo</module>
-        <module>themes</module>
-	</modules>
-
-    <profiles>
-        <profile>
-            <id>options</id>
-            <modules>
-                <module>simple</module>
-                <module>demo</module>
-                <module>test</module>
-            </modules>
-        </profile>
-    </profiles>
+    <modules>
+        <module>business-casual</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
@@ -41,17 +27,26 @@
             <!-- Composum Pages -->
             <dependency>
                 <groupId>com.composum.pages</groupId>
-                <artifactId>composum-pages-commons-bundle</artifactId>
+                <artifactId>composum-pages-components-bundle</artifactId>
                 <version>${composum.pages.version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>com.composum.pages</groupId>
-                <artifactId>composum-pages-components-bundle</artifactId>
+                <artifactId>composum-pages-commons-bundle</artifactId>
                 <version>${composum.pages.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Composum Assets -->
+            <dependency>
+                <groupId>com.composum.assets</groupId>
+                <artifactId>composum-assets-commons-bundle</artifactId>
+                <version>${composum.assets.version}</version>
                 <scope>provided</scope>
             </dependency>
 
         </dependencies>
     </dependencyManagement>
+
 </project>
