@@ -90,6 +90,11 @@
         <!-- Composum Pages -->
         <dependency>
             <groupId>com.composum.pages</groupId>
+            <artifactId>composum-pages-components-bundle</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.composum.pages</groupId>
             <artifactId>composum-pages-commons-bundle</artifactId>
             <version>${project.version}</version>
         </dependency>

@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- styles (clientlib) for this template -->
-  <cpn:clientlib type="css" category="composum.pages.themes.business-casual"/>
+  <cpn:clientlib type="css" category="composum.pages.themes.business-casual.view"/>
 
 </head>
 
@@ -117,7 +117,7 @@
 
   <section class="page-section about-heading">
     <div class="container">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="./vendor/img/about.jpg" alt="">
       <div class="about-heading-content">
         <div class="row">
           <div class="col-xl-9 col-lg-10 mx-auto">
@@ -144,7 +144,7 @@
   </footer>
 
   <!-- styles (clientlib) for this template -->
-  <cpn:clientlib type="js" category="composum.pages.themes.business-casual"/>
+  <cpn:clientlib type="js" category="composum.pages.themes.business-casual.view"/>
 
 </body>
 

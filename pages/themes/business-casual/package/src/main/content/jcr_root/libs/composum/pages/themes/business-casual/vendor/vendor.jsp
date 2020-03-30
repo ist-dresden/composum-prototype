@@ -17,11 +17,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- styles (clientlib) for this template -->
-  <cpn:clientlib type="css" category="composum.pages.themes.business-casual"/>
+  <cpn:clientlib type="css" category="composum.pages.themes.business-casual.view"/>
 
 </head>
 
-<body style="background-image: url('./vendor/img/bg.jpg');">
+<body style="background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('./vendor/img/bg.jpg');">
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
@@ -68,7 +68,7 @@
           <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            <a class="btn btn-primary btn-xl" href="./vendor.store.html">Visit Us Today!</a>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
   </footer>
 
   <!-- styles (clientlib) for this template -->
-  <cpn:clientlib type="js" category="composum.pages.themes.business-casual"/>
+  <cpn:clientlib type="js" category="composum.pages.themes.business-casual.view"/>
 
 </body>
 
