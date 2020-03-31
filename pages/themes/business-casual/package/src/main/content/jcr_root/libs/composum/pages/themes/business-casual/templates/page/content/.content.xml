@@ -4,7 +4,7 @@
         xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
         xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
         jcr:primaryType="cpp:Page"
-        overlays="[^.*/templates/page/content$]">
+        overlays="[^.*/templates/page/(home|content|test)$]">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
             jcr:title="Business Casual Content Page"
