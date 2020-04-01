@@ -14,7 +14,7 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-10 mx-auto">
                                 <div class="bg-faded text-${model.alignment} rounded p-5">
-                                    <cpn:div tagName="h2" test="${not empty model.title}"
+                                    <cpn:div tagName="h2" test="${not empty model.title||not empty model.properties.subtitle}"
                                              class="${modelCSS}_title section-heading mb-4">
                                         <cpn:text tagName="span" value="${model.properties.subtitle}"
                                                   class="section-heading-upper"/>
@@ -38,7 +38,7 @@
                     <div class="product-item">
                         <div class="product-item-title d-flex">
                             <div class="bg-faded p-5 d-flex m${model.imagePosition=='left'?'l':'r'}-auto text-${model.alignment} rounded">
-                                <cpn:div tagName="h2" test="${not empty model.title}"
+                                <cpn:div tagName="h2" test="${not empty model.title||not empty model.properties.subtitle}"
                                          class="${modelCSS}_title section-heading mb-4">
                                     <cpn:text tagName="span" value="${model.properties.subtitle}"
                                               class="section-heading-upper"/>

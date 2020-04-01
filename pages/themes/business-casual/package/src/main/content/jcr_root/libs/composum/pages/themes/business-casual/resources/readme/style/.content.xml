@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
+            jcr:title="Template &amp; Style"
+            template="ist/composum/templates/page/content">
+        <search
+                jcr:primaryType="nt:unstructured"
+                ignoreInSearch="{Boolean}true"/>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Template &amp; Style"/>
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <textimage
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    subtitle="reduced"
+                    text="&lt;p>The 'content' and the 'home' page template of the Composum Pages Components are overridden by this Theme Example.&lt;/p>&lt;p>&lt;code>overlays=&quot;[^.*/templates/page/(home|content|test)$]&quot;&lt;/code>&lt;/p>&lt;p>The themes template declares simplified design rules for the pages which are using this theme. Only a reduced subset of the components available by the Composum Pages Components is enabled for editing and rendering. If this theme is set on an existing page all content elements which are not part of themes element subset will be invisible.&lt;/p>&lt;p>The set of enabled page templates to create new pages is also reduced to 'content' and 'microsite' page templates..&lt;/p>"
+                    title="Template">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-04.png"/>
+            </textimage>
+            <text
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/text"
+                    subtitle="Style"
+                    text="&lt;p>The Theme example defines its own clientlibs for page displaying and page editing:&lt;/p>&lt;p>&lt;ul>&lt;li>&lt;code>composum.pages.themes.business-casual.view&lt;/code>&lt;/li>&lt;li>&lt;code>composum.pages.themes.business-casual.edit&lt;/code>&lt;/li>&lt;/ul>&lt;/p>&lt;p>These clientlib categories are replacing the default clientlib categories of the Composum Pages Components&lt;/p>&lt;p>&lt;ul>&lt;li>&lt;code>overlays=&quot;[^composum\\\\.pages\\\\.components\\\\.view$]&quot;&lt;/code>&lt;/li>&lt;li>&lt;code>overlays=&quot;[^composum\\\\.pages\\\\.components\\\\.edit$]&quot;&lt;/code>&lt;/li>&lt;/ul>&lt;/p>on clientlib include.&lt;br>&lt;br>"
+                    title="Clientlibs"/>
+        </main>
+        <style
+                jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

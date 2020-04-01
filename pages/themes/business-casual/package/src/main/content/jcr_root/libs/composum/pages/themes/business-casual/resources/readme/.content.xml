@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
+            jcr:title="Example"
+            template="ist/composum/templates/page/content">
+        <search
+                jcr:primaryType="nt:unstructured"
+                ignoreInSearch="{Boolean}true"/>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Example"/>
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <textimage
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    text="&lt;p>This Pages Prototype project demonstrates the power of the Themes feature of Composum Pages.&lt;/p>&lt;p>A Theme overlays the component and style implementation of a website project. A Theme can be switched without content changes. The existing content of a page is rendered based on the markup and style of the base implementation and the overlays of the Theme.&lt;/p>&lt;p>A Theme can overlay:&lt;/p>&lt;p>&lt;/p>&lt;ul>&lt;li>some templates of a project to modify the page design rules&lt;/li>&lt;li>some components of a project to modify the rendered markup&lt;/li>&lt;li>the clientlibs of a project to modify the style and behaviour&lt;/li>&lt;/ul>&lt;p>&lt;/p>">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-02.png"/>
+            </textimage>
+            <text_492544420
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/text"
+                    subtitle="Start Bootstrap"
+                    text="&lt;p>This Theme example is using the 'Business Casual' theme available at Start Bootstrap. It demonstrates the use of such a general theme as is. The style is not changed - all overlays are modifications of the Composum Pages Components implementation. This is for demonstration pourposes - normally such a style theme is imported by adjusting the style rules to the Sling components.&lt;/p>"
+                    title="Demonstration"/>
+        </main>
+        <style
+                jcr:primaryType="nt:unstructured"
+                background="/libs/composum/pages/themes/business-casual/resources/images/lumber-84678_1920.jpg"
+                theme="composum/pages/themes/business-casual"/>
+        <top
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/iparsys">
+            <title
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/title"
+                    subtitle="theme implementation"
+                    title="Example"/>
+        </top>
+        <bottom
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/iparsys">
+            <text
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/text"
+                    text="Composum Pages Theme example - a Composum Pages Prototype project"/>
+        </bottom>
+    </jcr:content>
+    <theme/>
+    <components/>
+    <style/>
+</jcr:root>

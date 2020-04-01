@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
+            jcr:title="Components"
+            template="ist/composum/templates/page/content">
+        <search
+                jcr:primaryType="nt:unstructured"
+                ignoreInSearch="{Boolean}true"/>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Components"/>
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <textimage
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    imagePosition="right"
+                    subtitle="Home &amp; Content"
+                    text="&lt;p>The page component overlay of the theme replaces the main rendering scripts for the content page and for the home page of the Components.&lt;/p>&lt;p>&lt;code>overlays=&quot;[^.*/components/page(/home)?$]&quot;&lt;/code>&lt;/p>&lt;p>The page edit dialog (composum/pages/components/page/edit/dialog) is also extended to enable the selection of a theme background image.&lt;/p>&lt;p>&lt;code>overlays=&quot;[^.*/components/page(/home)?/edit/dialog$]&quot;&lt;/code>&lt;/p>"
+                    title="Page">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-03.png"/>
+            </textimage>
+            <textimage_1194088541
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    imagePosition="left"
+                    subtitle="Page"
+                    text="The page navigation component is modified to restrict the navigation to one level presented as a simple menu."
+                    textAlignment="right"
+                    title="Navigation">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-02.png"/>
+            </textimage_1194088541>
+            <textimage_1805829130
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    subtitle="Content"
+                    text="&lt;p>The markup rendering of the used subset of the Composum Pages Components elements is adjusted to the needs of the imported 'Business Casual' theme:&lt;/p>&lt;ul>&lt;li>&lt;strong>Teaser&lt;/strong>&lt;br>is used to render an 'intro' element of the imported Bootstrap theme&lt;/li>&lt;li>&lt;strong>Text&lt;/strong>&lt;br>is used to produce a highlighted text box of the 'BusinessCasual' theme&lt;/li>&lt;li>&lt;strong>Text &amp;amp; Image&lt;/strong>&lt;br>elements are producing the 'product' and 'about' content sections of the imported theme&lt;/li>&lt;li>&lt;strong>Title&lt;/strong>&lt;br>enables the insertion of a title section in the top area of a page&lt;/li>&lt;/ul>"
+                    title="Elements">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-04.png"/>
+            </textimage_1805829130>
+        </main>
+        <style
+                jcr:primaryType="nt:unstructured"/>
+        <top
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/iparsys"
+                parentInheritanceCancelled="{Boolean}true">
+            <title
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/title"
+                    subtitle="Resource Type"
+                    title="Overlay"/>
+        </top>
+    </jcr:content>
+</jcr:root>

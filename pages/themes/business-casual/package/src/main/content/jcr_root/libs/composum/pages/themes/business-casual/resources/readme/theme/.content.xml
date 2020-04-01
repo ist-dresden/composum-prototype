@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
+            jcr:title="Theme"
+            template="ist/composum/templates/page/content">
+        <search
+                jcr:primaryType="nt:unstructured"
+                ignoreInSearch="{Boolean}true"/>
+        <navigation
+                jcr:primaryType="nt:unstructured"
+                title="Theme"/>
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <textimage
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/textimage"
+                    imagePosition="right"
+                    subtitle="Theme"
+                    text="&lt;p>A Theme is implemented by an OSGi service. The ThemeManger registers each available Theme implementation. Alternative to a theme implementation the Theme manager provides also the Theme declaration by resources of the primary type cpp:Theme. Each such Theme resource is merged with the registered Theme services.&lt;/p>"
+                    title="Implementation">
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        imageRef="/libs/composum/pages/themes/business-casual/resources/images/business-casual-03.png"/>
+            </textimage>
+            <text
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/text"
+                    subtitle="cpp:Theme"
+                    text="&lt;p>The child resources of a Theme resource are scanned for template, component and clientlib overlays. These overlays itself are of the overlayed type - template, component or clientlib. Their additional 'overlays' property is a multi value set of regex patterns. Each template, component or clientlib of the base implementation witch a matching type - template type, resource type or clientlib category - is overlayed by the Themes resource.&lt;/p>"
+                    title="Resource"/>
+        </main>
+        <style
+                jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
