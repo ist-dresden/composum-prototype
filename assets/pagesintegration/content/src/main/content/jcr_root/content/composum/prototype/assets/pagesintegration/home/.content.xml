@@ -83,6 +83,7 @@
                 jcr:primaryType="nt:unstructured"
                 title="Home"/>
     </jcr:content>
+    <withoutcontentxml/>
     <test/>
-    <noassets/>
+    <no_x0020_assets/>
 </jcr:root>
