@@ -22,8 +22,8 @@
     <properties>
         <package.group>com/composum/prototype</package.group>
         <bundle.category>composum,prototype</bundle.category>
-        <composum.platform.version>1.1.1-SNAPSHOT</composum.platform.version>
-        <composum.nodes.version>1.12.0-SNAPSHOT</composum.nodes.version>
+        <composum.platform.version>1.1.0</composum.platform.version>
+        <composum.nodes.version>1.12.1</composum.nodes.version>
     </properties>
 
     <scm>
