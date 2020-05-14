@@ -9,7 +9,7 @@
     <c:choose>
         <c:when test="${model.valid}">
             <div class="${modelCSS}_frame">
-                <cpn:image class="${modelCSS}_picture" src="${model.src}"
+                <cpn:image class="${modelCSS}_picture" src="${model.imageRef}"
                            alt="${model.alt}" title="${model.title}"/>
             </div>
         </c:when>

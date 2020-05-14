@@ -4,7 +4,7 @@
 <cpp:defineObjects/>
 <cpp:model var="model" type="com.composum.pages.commons.model.Image">
     <cpp:dropZone property="imageRef" filter="asset:image">
-        <cpn:image src="${model.src}" alt="${model.alt}" title="${model.title}"
+        <cpn:image src="${model.imageRef}" alt="${model.alt}" title="${model.title}"
                    class="${modelCSS}_picture product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"/>
     </cpp:dropZone>
 </cpp:model>
