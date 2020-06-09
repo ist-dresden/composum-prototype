@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cpl="http://sling.composum.com/platform/1.0"
-          xmlns:cpp="http://sling.composum.com/pages/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          jcr:primaryType="cpp:Site">
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Site">
     <jcr:content
             jcr:primaryType="cpp:SiteConfiguration"
-            publicMode="versions"
+            sling:resourceType="composum/pages/stage/edit/site"
             jcr:description="This site is for testing the integration of Composum Assets into Composum Pages, and also serves as an example how this can be done."
             jcr:title="Testsite for integration of Assets into Composum Pages"
-            sling:resourceType="composum/pages/stage/edit/site"
+            publicMode="versions"
             template="/libs/composum/pages/components/templates/site/test">
         <style
                 jcr:primaryType="nt:unstructured"
@@ -65,7 +64,7 @@
                     label="普通话"/>
         </languages>
     </jcr:content>
+    <releasedassets/>
     <home/>
     <meta/>
-    <assets/>
 </jcr:root>

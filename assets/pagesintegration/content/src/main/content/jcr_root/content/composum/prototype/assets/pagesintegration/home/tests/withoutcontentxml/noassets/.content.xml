@@ -6,9 +6,9 @@
         jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
             jcr:description="This page demonstrates that picures and videos can be JCR-versioned and used with pages without using the Assets module."
             jcr:title="Versioning without Assets"
-            sling:resourceType="composum/pages/components/page"
             template="/libs/composum/pages/components/templates/page/content">
         <main
                 jcr:primaryType="cpp:Container"
@@ -16,8 +16,7 @@
             <row
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-"
-                    path="">
+                    columns="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
@@ -25,11 +24,10 @@
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/textimage"
                             imagePosition="right"
-                            path=""
                             text="&lt;p>This page demonstrates that picures and videos can be JCR-versioned and used with pages without using the Assets module. The image and video used in this page got a mix:versionable mixin, and can be activated and published together with the pages, without using the Composum Assets module.&lt;/p>">
                         <image
                                 jcr:primaryType="nt:unstructured"
-                                imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational_waves.jpg"/>
+                                imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational waves.jpg"/>
                     </textimage>
                     <video
                             jcr:primaryType="cpp:Element"
@@ -41,8 +39,7 @@
                             licenseUrl="https://pixabay.com/service/license/"
                             loop="{Boolean}true"
                             muted="{Boolean}true"
-                            path=""
-                            videoRef="/content/composum/prototype/assets/pagesintegration/releasedassets/pixabay/Nebula-6044.mp4"/>
+                            videoRef="/content/composum/prototype/assets/pagesintegration/releasedassets/pixabay/Nebula.6044.mp4"/>
                 </column-0>
             </row>
         </main>
@@ -55,11 +52,10 @@
             <title
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/title"
-                    path=""
                     title="Versioning without the Assets module">
                 <image
                         jcr:primaryType="nt:unstructured"
-                        imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational_waves.jpg"/>
+                        imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational waves.jpg"/>
             </title>
         </top>
     </jcr:content>

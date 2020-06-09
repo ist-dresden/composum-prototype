@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          jcr:primaryType="cpp:Page">
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
             sling:resourceType="composum/pages/components/page/home"
@@ -26,8 +26,7 @@
             <teaser
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/teaser"
-                    link="/content/composum/prototype/assets/pagesintegration/home/test"
-                    path=""
+                    link="/content/composum/prototype/assets/pagesintegration/home/tests"
                     subtitle="component test playground"
                     text="Switch to the playground and place your components on that page to test the editing and the final presentation."
                     title="A Test Page"
@@ -43,23 +42,20 @@
             <row
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-"
-                    path="">
+                    columns="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
                     <text
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
-                            path=""
                             text="This homepage should contain a teaser collection to guide a visitor to its points of interest on this site."/>
                 </column-0>
             </row>
             <row_1160738332
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-6--6-"
-                    path="">
+                    columns="-6--6-">
                 <column-1
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
@@ -67,14 +63,14 @@
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/teaser"
                             icon="bullseye"
-                            link="/content/composum/prototype/assets/pagesintegration/home/test"
-                            path=""
+                            link="/content/composum/prototype/assets/pagesintegration/home/tests"
                             subtitle="component test playground"
                             text="Switch to the playground and place your components on that page to test the editing and the final presentation."
                             title="A Test Page"
                             variation="symbol">
                         <image
-                                jcr:primaryType="nt:unstructured"/>
+                                jcr:primaryType="nt:unstructured"
+                                imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/thäös.jpg"/>
                     </teaser>
                 </column-1>
             </row_1160738332>
@@ -83,7 +79,7 @@
                 jcr:primaryType="nt:unstructured"
                 title="Home"/>
     </jcr:content>
-    <withoutcontentxml/>
-    <test/>
     <no_x0020_assets/>
+    <assets/>
+    <tests/>
 </jcr:root>

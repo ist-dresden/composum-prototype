@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          jcr:primaryType="cpp:Page">
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
             sling:resourceType="composum/pages/components/page/errorpage"
@@ -12,7 +12,7 @@
             <title
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/title"
-                    subtitle="the sites general error page for the &apos;404&apos; errorcode"
+                    subtitle="the sites general error page for the '404' errorcode"
                     title="404 - ooops... not found">
                 <image
                         jcr:primaryType="cpp:Element"
@@ -25,20 +25,17 @@
             <row
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-"
-                    path="">
+                    columns="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
                     <text
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
-                            path=""
                             text="&lt;p>The requested page was not found on this site.&lt;/p>&lt;p>Use our sitemap, the navigation menu or search for the appropriate page.&lt;/p>"/>
                     <field
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/search/field"
-                            path=""
                             placeholderText="search term"
                             searchResultPath="/content/sites/mysite/meta/search"/>
                 </column-0>

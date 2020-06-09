@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cpa="http://sling.composum.com/assets/1.0"
+        xmlns:cpl="http://sling.composum.com/platform/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
         jcr:primaryType="cpa:Asset"
         sling:resourceType="composum/assets/image">
     <jcr:content
-            jcr:title="Fernsehtestbild"
-            jcr:primaryType="cpa:AssetContent">
+            jcr:primaryType="cpa:AssetContent"
+            jcr:title="Fernsehtestbild">
         <meta
                 jcr:primaryType="cpl:MetaData"
                 sling:resourceType="composum/assets/asset/meta"
                 source="Wikipedia"
-                sourceUrl="https://de.wikipedia.org/wiki/Testbild">
-        </meta>
+                sourceUrl="https://de.wikipedia.org/wiki/Testbild"/>
     </jcr:content>
 </jcr:root>

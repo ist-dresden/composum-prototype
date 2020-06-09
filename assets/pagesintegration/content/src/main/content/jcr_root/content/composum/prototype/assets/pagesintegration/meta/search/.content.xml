@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          jcr:primaryType="cpp:Page">
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        jcr:primaryType="cpp:Page">
     <jcr:content
             jcr:primaryType="cpp:PageContent"
             sling:resourceType="composum/pages/components/page"
@@ -25,24 +25,20 @@
             <row
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-"
-                    path="">
+                    columns="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
                     <section
                             jcr:primaryType="cpp:Container"
-                            sling:resourceType="composum/pages/components/container/section"
-                            path="">
+                            sling:resourceType="composum/pages/components/container/section">
                         <field
                                 jcr:primaryType="cpp:Element"
-                                sling:resourceType="composum/pages/components/search/field"
-                                path=""/>
+                                sling:resourceType="composum/pages/components/search/field"/>
                         <result
                                 jcr:primaryType="cpp:Element"
                                 sling:resourceType="composum/pages/components/search/result"
-                                path=""
-                                title="Search results for &apos;${term}&apos;"/>
+                                title="Search results for '${term}'"/>
                     </section>
                 </column-0>
             </row>

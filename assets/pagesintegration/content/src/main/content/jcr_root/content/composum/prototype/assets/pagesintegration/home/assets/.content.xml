@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
         jcr:primaryType="cpp:Page"
         binontest="{Binary}">
     <jcr:content
@@ -45,15 +45,13 @@
             <row
                     jcr:primaryType="cpp:Container"
                     sling:resourceType="composum/pages/components/container/row"
-                    columns="-12-"
-                    path="">
+                    columns="-12-">
                 <column-0
                         jcr:primaryType="cpp:Container"
                         sling:resourceType="composum/pages/components/container/row/column">
                     <text
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
-                            path=""
                             text="Some simple asset:"/>
                     <asset
                             jcr:primaryType="cpp:Element"
@@ -64,13 +62,11 @@
                     <text_1777266254
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/pages/components/element/text"
-                            path=""
                             text="Asset ends."/>
                     <simpleasset
                             jcr:primaryType="cpp:Element"
                             sling:resourceType="composum/prototype/assets/pagesintegration/components/simpleasset"
                             assetPath="/content/composum/prototype/assets/pagesintegration/releasedassets/testbild.png"
-                            path=""
                             rendition="medium"
                             variation="thumbnail"/>
                 </column-0>
@@ -82,12 +78,11 @@
             <title
                     jcr:primaryType="cpp:Element"
                     sling:resourceType="composum/pages/components/element/title"
-                    path=""
-                    subtitle="component testing"
-                    title="Test Page">
+                    subtitle="Demonstrates uses of assets"
+                    title="Assets integration">
                 <image
                         jcr:primaryType="nt:unstructured"
-                        imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational_waves.jpg"/>
+                        imageRef="/content/composum/prototype/assets/pagesintegration/releasedassets/background/gravitational waves.jpg"/>
             </title>
         </top>
         <navigation

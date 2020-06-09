@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cpp="http://sling.composum.com/pages/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cpp:Page">
+    <jcr:content
+            jcr:primaryType="cpp:PageContent"
+            sling:resourceType="composum/pages/components/page"
+            jcr:description="The subpages of this page are there to verify the absence of problems related to unusual characters in nodenames etc."
+            jcr:title="Tests for charset problems"
+            template="composum/pages/components/templates/page/content">
+        <main
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/parsys">
+            <title
+                    jcr:primaryType="cpp:Element"
+                    sling:resourceType="composum/pages/components/element/title"
+                    title="Testpages for charset problems"/>
+            <row
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/row"
+                    columns="-12-">
+                <column-0
+                        jcr:primaryType="cpp:Container"
+                        sling:resourceType="composum/pages/components/container/row/column">
+                    <text
+                            jcr:primaryType="cpp:Element"
+                            sling:resourceType="composum/pages/components/element/text"
+                            text="&lt;p>The subpages of this page are there to verify the absence of problems related to unusual characters in nodenames etc.&lt;/p>"/>
+                </column-0>
+            </row>
+        </main>
+        <bottom
+                jcr:primaryType="cpp:Container"
+                sling:resourceType="composum/pages/components/container/iparsys"/>
+    </jcr:content>
+    <page-äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX jcr:primaryType="cpp:Page">
+        <jcr:content
+                jcr:primaryType="cpp:PageContent"
+                sling:resourceType="composum/pages/components/page"
+                jcr:title="Page with weird name"
+                template="composum/pages/components/templates/page/content">
+            <main
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/parsys">
+                <title
+                        jcr:primaryType="cpp:Element"
+                        sling:resourceType="composum/pages/components/element/title"
+                        title="Page with weird name page-äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX"/>
+                <row
+                        jcr:primaryType="cpp:Container"
+                        sling:resourceType="composum/pages/components/container/row"
+                        columns="-12-">
+                    <column-0
+                            jcr:primaryType="cpp:Container"
+                            sling:resourceType="composum/pages/components/container/row/column">
+                        <text-äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX
+                                jcr:primaryType="cpp:Element"
+                                sling:resourceType="composum/pages/components/element/text"
+                                text="This text node name contains the chars -äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX."/>
+                    </column-0>
+                </row>
+            </main>
+            <bottom
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/iparsys"/>
+        </jcr:content>
+    </page-äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX>
+    <page-HolaהייΓειαПриветمرحبا你好こんにちはX jcr:primaryType="cpp:Page">
+        <jcr:content
+                jcr:primaryType="cpp:PageContent"
+                sling:resourceType="composum/pages/components/page"
+                jcr:title="Page with name from various languages"
+                template="composum/pages/components/templates/page/content">
+            <main
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/parsys">
+                <title
+                        jcr:primaryType="cpp:Element"
+                        sling:resourceType="composum/pages/components/element/title"
+                        title="Page with name combined from various languages page-HolaהייΓειαПриветمرحبا你好こんにちはX"/>
+                <row
+                        jcr:primaryType="cpp:Container"
+                        sling:resourceType="composum/pages/components/container/row"
+                        columns="-12-">
+                    <column-0
+                            jcr:primaryType="cpp:Container"
+                            sling:resourceType="composum/pages/components/container/row/column">
+                        <text-HolaהייΓειαПриветمرحبا你好こんにちは
+                                jcr:primaryType="cpp:Element"
+                                sling:resourceType="composum/pages/components/element/text"
+                                text="This text node name contains the chars HolaהייΓειαПриветمرحبا你好こんにちは."/>
+                    </column-0>
+                </row>
+            </main>
+            <bottom
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/iparsys"/>
+        </jcr:content>
+    </page-HolaהייΓειαПриветمرحبا你好こんにちはX>
+    <page-__x003f__x0023__x0040__x0025__x0028__x0029__x007b__x007d__x0024__x0021__x0027__x002b__x002c__x003d_-_x005c_X
+            jcr:primaryType="cpp:Page">
+        <jcr:content
+                jcr:primaryType="cpp:PageContent"
+                sling:resourceType="composum/pages/components/page"
+                jcr:title="Page with name from HTTP special chars"
+                template="composum/pages/components/templates/page/content">
+            <main
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/parsys">
+                <title
+                        jcr:primaryType="cpp:Element"
+                        sling:resourceType="composum/pages/components/element/title"
+                        title="Page with name combined from HTTP special chars"/>
+                <row
+                        jcr:primaryType="cpp:Container"
+                        sling:resourceType="composum/pages/components/container/row"
+                        columns="-12-">
+                    <column-0
+                            jcr:primaryType="cpp:Container"
+                            sling:resourceType="composum/pages/components/container/row/column">
+                        <text-__x003f__x0023__x0040__x0025__x0028__x0029__x007b__x007d__x0024__x0021__x0027__x002b__x002c__x003d_-_x005c_X
+                                jcr:primaryType="cpp:Element"
+                                sling:resourceType="composum/pages/components/element/text"
+                                text="This text node name contains a lot of characters special in the HTTP protocol, URLs etc : _?#@%(){}$!'+,=-\ . The characters ; &amp; &lt; &gt; &quot; do not work as node names for various reasons."/>
+                    </column-0>
+                </row>
+            </main>
+            <bottom
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/iparsys"/>
+        </jcr:content>
+    </page-__x003f__x0023__x0040__x0025__x0028__x0029__x007b__x007d__x0024__x0021__x0027__x002b__x002c__x003d_-_x005c_X>
+    <doesnotwork-_x003b__x003c__x003e__x0026__x0022_X jcr:primaryType="sling:Folder"
+                                                      jcr:title="This folder is inaccessible in composum since it contains several chars that are removed / escaped">
+    </doesnotwork-_x003b__x003c__x003e__x0026__x0022_X>
+    <page.with.period/>
+    <page_x0020_with_x0020_spaces/>
+</jcr:root>
