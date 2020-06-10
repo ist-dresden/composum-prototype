@@ -34,6 +34,38 @@
                 jcr:primaryType="cpp:Container"
                 sling:resourceType="composum/pages/components/container/iparsys"/>
     </jcr:content>
+    <page-normal jcr:primaryType="cpp:Page">
+        <jcr:content
+                jcr:primaryType="cpp:PageContent"
+                sling:resourceType="composum/pages/components/page"
+                jcr:title="Page with normal name"
+                template="composum/pages/components/templates/page/content">
+            <main
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/parsys">
+                <title
+                        jcr:primaryType="cpp:Element"
+                        sling:resourceType="composum/pages/components/element/title"
+                        title="Page with normal name"/>
+                <row
+                        jcr:primaryType="cpp:Container"
+                        sling:resourceType="composum/pages/components/container/row"
+                        columns="-12-">
+                    <column-0
+                            jcr:primaryType="cpp:Container"
+                            sling:resourceType="composum/pages/components/container/row/column">
+                        <text
+                                jcr:primaryType="cpp:Element"
+                                sling:resourceType="composum/pages/components/element/text"
+                                text="This text node with normal name."/>
+                    </column-0>
+                </row>
+            </main>
+            <bottom
+                    jcr:primaryType="cpp:Container"
+                    sling:resourceType="composum/pages/components/container/iparsys"/>
+        </jcr:content>
+    </page-normal>
     <page-äöüÄÖÜñóáéíóúáßàèìùòâêîôûbbX jcr:primaryType="cpp:Page">
         <jcr:content
                 jcr:primaryType="cpp:PageContent"
