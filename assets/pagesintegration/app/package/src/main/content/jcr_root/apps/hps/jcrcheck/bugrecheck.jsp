@@ -35,33 +35,29 @@
 %>
 <%
     final String PATH = "/tmp/hps/uuidcheck";
+    String name = "child" + System.currentTimeMillis();
+    String dstPath = PATH + "/moved" + System.currentTimeMillis();
     Session session = resourceResolver.adaptTo(Session.class);
 %>
 <%
     Resource parentResource = resourceResolver.getResource(PATH);
-    if (parentResource != null) {
-        resourceResolver.delete(parentResource);
-        resourceResolver.commit();
-    }
-    parentResource = resourceResolver.getResource(PATH);
-    if (parentResource != null) throw new IllegalStateException("Not deleted");
+    // Resource child = resourceResolver.create(parentResource, name, Map.of("nt:primaryType", "sling:Folder", "jcr:mixinTypes", new String[]{"mix:referenceable"}));
 
-    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH);
-    Resource child = resourceResolver.create(parentResource, "child", Map.of("nt:primaryType", "sling:Folder", "jcr:mixinTypes", new String[]{"mix:versionable"}));
-    resourceResolver.commit();
-    resourceResolver.refresh();
+
+    Node parent = session.getNode(PATH);
+    Node child = parent.addNode("child", "sling:Folder"); child.addMixin("mix:referenceable");
 
     String createdinfo = nodeInfo("Created", session, child.getPath());
 
-    Node parent = session.getNode(PATH);
-    // Node child = parent.addNode("child", "sling:Folder"); child.addMixin("mix:versionable");
+    resourceResolver.commit();
+    resourceResolver.refresh();
 
-    session.move(child.getPath(), PATH + "/moved");
-    session.save();
-    // resourceResolver.commit();
+    session.move(child.getPath(), dstPath);
+    // session.save();
+    resourceResolver.commit();
 
 %>
 <%= createdinfo%>
-<%= nodeInfo("Moved", session, PATH + "/moved") %>
+<%= nodeInfo("Moved", session, dstPath) %>
 bugrecheck done <%= this %>
 </p></html>

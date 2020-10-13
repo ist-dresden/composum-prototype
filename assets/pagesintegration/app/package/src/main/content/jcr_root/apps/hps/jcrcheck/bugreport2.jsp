@@ -6,24 +6,23 @@
 <%-- view-source:http://localhost:9090/apps/hps/jcrcheck.bugreport2.html --%>
 <sling:defineObjects/>
 <%
-    final String PATH = "/tmp/hps/uuidcheck";
+    final String PATH = "/tmp/hps/uuidcheck/src";
     final String PATH2 = "/tmp/hps/uuidcheck/dst";
     Session session = resourceResolver.adaptTo(Session.class);
 
-    Resource parentResource = resourceResolver.getResource(PATH);
-    Resource child = resourceResolver.create(parentResource, "child" + System.currentTimeMillis(),
-            Map.of("nt:primaryType", "sling:Folder", "jcr:mixinTypes", new String[]{"mix:referenceable"}));
-    resourceResolver.commit();
+    Node parent = session.getNode(PATH);
+    String name = "child" + System.currentTimeMillis();
+    Node child = parent.addNode(name, "sling:Folder");
+    child.addMixin("mix:referenceable");
+    session.save();
 
-    String id = child.getValueMap().get("jcr:uuid", String.class);
-
+    String id = child.getIdentifier();
     // session.getNodeByIdentifier(id); // OK, works as expected here.
 
-    Resource parentResource2 = resourceResolver.getResource(PATH2);
-    resourceResolver.move(child.getPath(), PATH2);
-    resourceResolver.commit();
+    session.move(child.getPath(), PATH2 + "/" + name);
+    session.save();
 
-    session.getNodeByIdentifier(id); // Throws ItemNotFoundException!
+    session.getNodeByIdentifier(id); // often throws ItemNotFoundException!
 
 %>
-DONE 2b <%= this %>
+DONE <%= this %>
