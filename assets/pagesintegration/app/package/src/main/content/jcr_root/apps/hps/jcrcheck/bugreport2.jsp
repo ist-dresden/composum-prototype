@@ -1,6 +1,6 @@
-<%@ page import="org.apache.sling.api.resource.Resource" %>
-<%@ page import="java.util.Map" %>
-<%@ page import="javax.jcr.*" %>
+<%@ page import="javax.jcr.ItemNotFoundException" %>
+<%@ page import="javax.jcr.Node" %>
+<%@ page import="javax.jcr.Session" %>
 <%@page session="false" pageEncoding="UTF-8" %>
 <%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling" %>
 <%-- view-source:http://localhost:9090/apps/hps/jcrcheck.bugreport2.html --%>
@@ -17,12 +17,18 @@
     session.save();
 
     String id = child.getIdentifier();
-    // session.getNodeByIdentifier(id); // OK, works as expected here.
+    session.getNodeByIdentifier(id); // OK, works as expected here.
 
     session.move(child.getPath(), PATH2 + "/" + name);
     session.save();
 
-    session.getNodeByIdentifier(id); // often throws ItemNotFoundException!
+    Exception exception = null;
+    try {
+        session.getNodeByIdentifier(id); // often throws ItemNotFoundException!
+    } catch (ItemNotFoundException e) {
+        exception = e;
+    }
 
 %>
+<%= exception %>
 DONE <%= this %>
