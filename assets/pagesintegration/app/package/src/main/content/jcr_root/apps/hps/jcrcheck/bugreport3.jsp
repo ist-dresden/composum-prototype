@@ -12,29 +12,23 @@
 
     Node parent = session.getNode(PATH);
     String name = "child" + System.currentTimeMillis();
-    Node child = parent.addNode(name, "sling:Folder");
+    Node child = parent.addNode(name);
     child.addMixin("mix:referenceable");
     session.save();
+    session.refresh(false);
 
     String id = child.getIdentifier();
-    String pathbefore = null;
-    pathbefore = session.getNodeByIdentifier(id).getPath(); // OK, works as expected here.
+    System.out.println(id);
+    session.getNodeByIdentifier(id); // OK, works as expected here.
 
     session.move(child.getPath(), PATH2 + "/" + name);
-    String pathaftermove = null;
-    pathaftermove = session.getNodeByIdentifier(id).getPath(); // OK, works as expected here.
     session.save();
+    session.refresh(false);
+    System.gc();
+    Thread.sleep(100);
+    session.refresh(false);
 
-    Exception exception = null;
-    try {
-        session.getNodeByIdentifier(id); // often throws ItemNotFoundException!
-    } catch (ItemNotFoundException e) {
-        exception = e;
-    }
+    session.getNodeByIdentifier(id); // often throws ItemNotFoundException!
 
 %>
-<%= exception %>
 DONE <%= this %>
-pathbefore = <%= pathbefore %>
-pathaftermove = <%= pathaftermove%>
-id = <%= id %>

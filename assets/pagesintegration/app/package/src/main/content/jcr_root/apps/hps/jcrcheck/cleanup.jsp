@@ -1,8 +1,6 @@
 <%@ page import="com.composum.sling.core.util.ResourceUtil" %>
 <%@ page import="org.apache.sling.api.resource.Resource" %>
-<%@ page import="javax.jcr.Node" %>
 <%@ page import="javax.jcr.Session" %>
-<%@ page import="java.util.Map" %>
 <%@page session="false" pageEncoding="UTF-8" %>
 <%-- view-source:http://localhost:9090/apps/hps/jcrcheck.cleanup.html --%>
 <%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling/1.2" %>
@@ -21,9 +19,9 @@
     parentResource = resourceResolver.getResource(PATH);
     if (parentResource != null) throw new IllegalStateException("Not deleted");
 
-    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH);
-    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH + "/src");
-    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH + "/dst");
+    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH, "nt:unstructured");
+    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH + "/src", "nt:unstructured");
+    parentResource = ResourceUtil.getOrCreateResource(resourceResolver, PATH + "/dst", "nt:unstructured");
     resourceResolver.commit();
 
 %>
