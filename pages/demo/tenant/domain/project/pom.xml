@@ -41,14 +41,14 @@
             <dependency>
                 <groupId>com.composum.pages</groupId>
                 <artifactId>composum-pages-commons-bundle</artifactId>
-                <version>1.1.0</version>
+                <version>1.2.0</version>
             </dependency>
 
-            <!-- Composum Core -->
+            <!-- Composum Nodes -->
             <dependency>
-                <groupId>com.composum.sling.core</groupId>
-                <artifactId>composum-sling-core-commons</artifactId>
-                <version>1.11.1</version>
+                <groupId>com.composum.nodes</groupId>
+                <artifactId>composum-nodes-commons</artifactId>
+                <version>2.5.1</version>
             </dependency>
         </dependencies>
 
