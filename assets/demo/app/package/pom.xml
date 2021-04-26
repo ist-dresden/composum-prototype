@@ -94,6 +94,14 @@
                         </embedded>
                     </embeddeds>
 
+                    <dependencies>
+                        <dependency>
+                            <group>com/composum/assets</group>
+                            <name>composum-assets-commons-package</name>
+                            <!-- <version>[${project.version},2.0)</version> -->
+                        </dependency>
+                    </dependencies>
+
                 </configuration>
             </plugin>
 

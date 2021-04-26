@@ -52,6 +52,14 @@
                         </filter>
                     </filters>
 
+                    <dependencies>
+                        <dependency>
+                            <group>com/composum/pages</group>
+                            <name>composum-pages-components-package</name>
+                            <!-- <version>[${project.version},2.0)</version> -->
+                        </dependency>
+                    </dependencies>
+
                 </configuration>
             </plugin>
 
