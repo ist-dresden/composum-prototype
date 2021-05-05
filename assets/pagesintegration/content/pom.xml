@@ -50,12 +50,6 @@
                         <filter>
                             <root>/content/composum/prototype/assets/pagesintegration</root>
                         </filter>
-                        <filter>
-                            <root>/conf/content/composum/prototype/assets/pagesintegration</root>
-                        </filter>
-                        <filter>
-                            <root>/var/composum/platform/security/credentials/composum/prototype/assets/pagesintegration</root>
-                        </filter>
                     </filters>
 
                     <dependencies>
