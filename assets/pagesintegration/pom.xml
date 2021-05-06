@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>composum-prototype-assets-pagesintegration</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Example for Pages integration of Assets</name>
