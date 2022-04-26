@@ -46,15 +46,16 @@
 
         <profile>
             <id>develop</id>
-            <properties>
-                <deploy.package>true</deploy.package>
-                <sling.scheme>https</sling.scheme>
-                <sling.secure>true</sling.secure>
-                <sling.host>test.composum.com</sling.host>
-                <sling.port>443</sling.port>
-                <sling.context></sling.context>
-                <sling.password>${env.NEXUS_BUILD_PASSWD}</sling.password>
-            </properties>
+            <!-- Disallow automatic deployment on test.composum.com at the moment -->
+<!--            <properties>-->
+<!--                <deploy.package>true</deploy.package>-->
+<!--                <sling.scheme>https</sling.scheme>-->
+<!--                <sling.secure>true</sling.secure>-->
+<!--                <sling.host>test.composum.com</sling.host>-->
+<!--                <sling.port>443</sling.port>-->
+<!--                <sling.context></sling.context>-->
+<!--                <sling.password>${env.NEXUS_BUILD_PASSWD}</sling.password>-->
+<!--            </properties>-->
         </profile>
 
         <!--
