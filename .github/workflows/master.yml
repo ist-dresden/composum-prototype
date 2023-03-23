@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        # deliberately not, to check with central repo: cache: maven
+        cache: maven
 
     - name: Check versioning
       run: mvn -s .github/settings-public.xml org.apache.maven.plugins:maven-enforcer-plugin:3.0.0:enforce -Drules=requireReleaseVersion,requireReleaseDeps
